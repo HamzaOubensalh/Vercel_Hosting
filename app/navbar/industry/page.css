@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+.Main-Industry-Main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Main-Industry-Main1{
+    background-color: #132E35;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 140px;
+}
+.Main-Industry-Main1 .Main-Industry-Main1-1{
+    width: 66.66vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 232px;
+    margin-top: 130px;
+    margin-bottom: 93px;
+}
+.Main-Industry-Main1-1 .Main1-1-First{
+    width: 28.125vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Main-Industry-Main1-1 .Main1-1-Second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main1-1-First .Main1-1-First-Titles p:nth-child(1){
+    font-family: Source Code Pro;
+    font-size: 18px;
+    color: #CCD0CF;
+}
+.Main1-1-First .Main1-1-First-Titles p:nth-child(2){
+    font-family: Rubik,sans-serif;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.Main1-1-First .Main1-1-First-Content p{
+    font-family: Rubik,sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.Main1-1-First .Main1-1-First-Buttons{
+    display: flex;
+    gap: 33px;
+}
+.Main1-1-First-Buttons button{
+    padding: 26px 73px;
+    border-radius: 20px;
+}
+.Main1-1-First-Buttons button:nth-child(1){
+    background-color: #2C4A52;
+    border: 1px #707070;
+    color: #FFFFFF;
+    font-family: Rubik,sans-serif;
+    font-size: 18px;
+}
+.Main1-1-First-Buttons button:nth-child(2){
+    background-color: #132E35;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: Rubik,sans-serif;
+    font-size: 18px;
+}
+.Main-Industry-Main2{
+    width: 56.25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 134px;
+}
+.Main-Industry-Main2 p:nth-child(1){
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+}
+.Main-Industry-Main2 p:nth-child(2){
+    font-family: Libre Franklin;
+    font-size: 60px;
+    font-weight: 400;
+}
+.Main-Industry-Main3{
+    width: 45.83vw;
+    border-top: 4px solid #FFFFFF;
+    border-bottom: 4px solid #FFFFFF;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    margin-bottom: 105px;
+}
+.Main-Industry-Main3 p{
+    font-family: Rubik,sans-serif;
+    font-size: 42px;
+    font-weight: 50;
+}
+.Main-Industry-Main4{
+    width: 66.66vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 136px;
+}
+.Main-Industry-Main4 .Main4-Title{
+    display: flex;
+    font-family: Source Code Pro;
+    font-family: 18px;
+    font-weight: 400;
+    color: #CCD0CF;
+}
+.Main-Industry-Main4 .Main4-Content>div{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 124px;
+}
+.First-Div p:nth-child(1){
+    font-family: Rubik,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.First-Div p:nth-child(2){
+    font-family: Libre Franklin;
+    font-size: 55px;
+    font-weight: bold;
+}
+.Second-Div p:nth-child(1){
+    font-family: Libre Franklin;
+    font-size: 28px;
+    font-weight: 400;
+}
+.Second-Div li{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 200;
+}
+.Main4-Content>div{
+    margin-bottom: 44px;
+}
+.Main-Industry-Main5{
+    background-color: #132E35;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 26px;
+    padding-bottom: 101.8px;
+    margin-bottom: 56px;
+}
+.Main-Industry-Main5-Holder{
+    width: 66.66vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 54.9px;
+}
+.Main5-Title p{
+    font-family: Libre Franklin;
+    font-size: 64px;
+    font-weight: 400;
+}
+.Main-Industry-Main5 .Main5-Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.Main-Industry-Main5 .Title{
+    margin-bottom: 20px;
+}
+.Main-Industry-Main5 .Title p:nth-child(1){
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: 400;
+    color: #CCD0CF;
+    margin-bottom: 0px;
+}
+.Main-Industry-Main5 .Title p:nth-child(2){
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.Main-Industry-Main5 .Content p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.Main-Industry-Main6{
+    margin-bottom: 50.4px;
+}
+.Fourth-Main {
+    width: 68vw;
+    display: flex;
+    justify-content: space-between; /* Changed to space-between */
+    background-color: white;
+    color: black;
+    padding: 7vh;
+    border-radius: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the total width/height */
+    margin-bottom: 121px;
+    /* margin-top: 20px; */
+    /* position: relative;
+    top: 10px; */
+}
+.Fourth-Main .Fourth-Main1{
+    margin-right: 150px;
+    
+}
+.Fourth-Main1 {
+    width: 37vw;
+    padding: 1rem; /* Add padding inside Fourth-Main1 if needed */
+}
+
+.Fourth-Main1 .content {
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: bolder;
+    width: 485px;
+}
+
+.Fourth-Main1 p:nth-child(1) {
+    font-family: 'Source Code Pro';
+    font-size: 18px;
+    color: #69818D;
+    margin-bottom: 0;
+}
+.Fourth-Main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.Fourth-Main input {
+    width: 324px;
+    padding: 15px;
+    border-radius: 7px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Fourth-Main button {
+    width: 324px;
+    padding: 15px;
+    background-color: #2C4A52;
+    color: white;
+    border-radius: 7px;
+}

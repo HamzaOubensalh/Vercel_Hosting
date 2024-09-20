@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+.Main-Affiliate-Div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Affiliate-Title-Div {
+  width: 49.47vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 66px;
+}
+.Affiliate-Title-Div p:nth-child(3) {
+  font-family: Source Code Pro;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 120px;
+  color: #ccd0cf;
+}
+.Affiliate-Title-Div p:nth-child(4) {
+  font-family: Libre Franklin;
+  font-size: 54px;
+  font-weight: 400;
+}
+.Affiliate-Title-Div p:nth-child(5) {
+  font-family: Inter;
+  font-size: 18px;
+  color: #ccd0cf;
+}
+.Affiliate-Content-Div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 81.7px;
+  margin-bottom: 78.7px;
+}
+.Affiliate-Content-Div .Image {
+  width: 100vw;
+}
+.Affiliate-Content2-Div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #132e35;
+}
+.Affiliate-Content2-Div .Sub-Affiliate-Content {
+  width: 66.68vw;
+  display: flex;
+  flex-direction: column;
+}
+.Sub-Affiliate-Content-Content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 58.7px;
+}
+.Sub-Affiliate-Content-Titles {
+  margin-bottom: 54px;
+  padding-top: 27px;
+}
+.Sub-Affiliate-Content-Titles p:nth-child(1) {
+  font-family: Source Code Pro;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ccd0cf;
+}
+.Sub-Affiliate-Content-Titles p:nth-child(2) {
+  font-family: Libre Franklin;
+  font-size: 64px;
+  font-weight: 400;
+}
+.Sub-Affiliate-Content-Content .Content-Holder {
+  width: 57.1vw;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 62px;
+}
+.Content-Holder div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 9px 23px 11px 24px;
+  width: 16.87vw;
+}
+.Content-Holder div p:nth-child(1) {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+}
+.Content-Holder div p:nth-child(2) {
+  font-family: Inter;
+  font-size: 14px;
+}
+.Sub-Affiliate-Content-Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 55.7px;
+}
+.Affiliate-Content3-Div {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 84px;
+}
+.Affiliate-Content3-Div .Affiliate-Content3-Titles {
+  width: 66.68vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 48px;
+  margin-bottom: 80px;
+}
+.Affiliate-Content3-Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 51px;
+}
+.Affiliate-Content3-Titles p:nth-child(1) {
+  font-family: Source Code Pro;
+  font-size: 18px;
+  font-weight: 400;
+}
+.Affiliate-Content3-Titles p:nth-child(2) {
+  font-family: Libre Franklin;
+  font-size: 36px;
+  font-weight: 300;
+}
+.Affiliate-Content3-Content .Content3-Holder {
+  width: 57.1vw;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 43px;
+  margin-bottom: 84px;
+}
+.Content3-Holder div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c4a52;
+  border-radius: 20px;
+  padding: 15px 13px 30px 19px;
+  width: 17.55vw;
+  gap: 21px;
+}
+.Content3-Holder div p:nth-child(1) {
+  font-family: Inter;
+  font-size: 14px;
+}
+.Content3-Holder div p:nth-child(2) {
+  font-family: Inter;
+  font-size: 14px;
+}
+
+.Affiliate-Content3-Content .Content3-Holder2 {
+  width: 66.68vw;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #2c4a52;
+  border-radius: 20px;
+  padding: 23px 184px 60px 108px;
+}
+.Content3-Holder2 p:nth-child(1) {
+  font-family: Source Code Pro;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ccd0cf;
+}
+.Content3-Holder2 p:nth-child(2) {
+  font-family: Libre Franklin;
+  font-size: 28px;
+  font-weight: 400;
+}
+.Affiliate-Content3-Content .Affiliate-Content3-Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45.62vw;
+}
+.Affiliate-Content3-Footer p {
+  font-family: Source Code Pro;
+  font-size: 18px;
+  color: #ccd0cf;
+}
+.Fourth-Main {
+  width: 68vw;
+  display: flex;
+  justify-content: space-between; /* Changed to space-between */
+  background-color: white;
+  color: black;
+  padding: 7vh;
+  border-radius: 20px;
+  box-sizing: border-box; /* Ensure padding is included in the total width/height */
+  margin-bottom: 74.9px;
+  /* margin-top: 20px; */
+  /* position: relative;
+    top: 10px; */
+}
+.Fourth-Main .Fourth-Main1 {
+  margin-right: 150px;
+}
+.Fourth-Main1 {
+  width: 37vw;
+  padding: 1rem; /* Add padding inside Fourth-Main1 if needed */
+}
+
+.Fourth-Main1 .content {
+  font-family: Raleway;
+  font-size: 35px;
+  font-weight: bolder;
+  width: 485px;
+}
+
+.Fourth-Main1 p:nth-child(1) {
+  font-family: "Source Code Pro";
+  font-size: 18px;
+  color: #69818d;
+  margin-bottom: 0;
+}
+.Fourth-Main2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 200px;
+}
+
+.Fourth-Main input {
+  width: 324px;
+  padding: 15px;
+  border-radius: 7px;
+  margin-bottom: 7px;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Fourth-Main button {
+  width: 324px;
+  padding: 15px;
+  background-color: #2c4a52;
+  color: white;
+  border-radius: 7px;
+}
+hr {
+  color: #69818d;
+}

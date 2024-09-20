@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+.Main-Partners{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Main-Partners-Titles{
+    width: 28.24vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    margin-bottom: 67px;
+}
+.Main-Partners-Titles p:nth-child(3){
+    font-family: Source Code Pro;
+    font-size: 18px;
+    color: #CCD0CF;
+    margin-top: 60px;
+}
+.Main-Partners-Titles p:nth-child(4){
+    font-family: Libre Franklin;
+    font-size: 28px;
+    font-weight: 400;
+}
+.Main-Partners-Titles p:nth-child(5){
+    font-family: Inter;
+    font-size: 16px;
+}
+.Main-Partners-Content{
+    margin-bottom: 163px;
+}
+.Main-Partners-Content .Partners-Image{
+    width: 100vw;
+}
+.Main-Partners-Content2{
+    width: 56.78vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Main-Partners-Content2 .Content2-Titles{
+    width: 55.42vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.Content2-Titles p:nth-child(1){
+    font-family: Source Code Pro;
+    font-family: 18px;
+    font-weight: 400;
+    color: #CCD0CF;
+    margin-bottom: 28px;
+}
+.Content2-Titles p:nth-child(2){
+    font-family: Libre Franklin;
+    font-size: 40px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+.Main-Partners-Content2 .Content2-Cards{
+    display: flex;
+    flex-wrap: wrap; /* Allow the items to wrap */
+    justify-content: center;
+    align-items: stretch;
+    gap: 41px; /* Add some gap between cards */
+    margin-bottom: 96px;
+}
+.Content2-Cards div {
+    width: 17.55vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(33.33% - 41px); /* Three items per row with gap accounted for */
+    /* border: 1px solid #FFFFFF; */
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 15px 16px 18px 16px;
+    box-shadow: 0 4px 6px rgba(233, 223, 223, 0.435); /* Lighter shadow */
+}
+.Main-Partners-Content3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    margin-bottom: 85px;
+}
+.Main-Partners-Content3 .Main-Partners-Content3-Title{
+    width: 22vw;
+    margin-bottom: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+}
+.Main-Partners-Content3-Title p{
+    font-family: Libre Franklin;
+    font-size: 36px;
+    font-weight: 300;
+}
+.Main-Partners-Content3 .Main-Partners-Content3-Content{
+    width: 57.1vw;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 43px;
+    margin-bottom: 56px;
+}
+.Main-Partners-Content3-Content div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #2C4A52;
+    color: #FFFFFF;
+    padding: 15px 13px 17px 19px;
+}
+.Main-Partners-Content3-Footer{
+    width: 45.83vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 44px;
+}
+.Main-Partners-Content3-Footer p{
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+/*This Is The Start*/
+.Creative_Element{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 101px;
+}
+#menu{
+    width: 57.19vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+#menu li{
+    list-style-type: none;
+    font-size: 18px;
+    font-family: Source Code Pro;
+    color: #CCD0CF;
+    font-weight: bold; 
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid transparent;
+    
+}
+#menu li.active{
+    padding: 6px 60px;
+    border: 1px solid #CCD0CF;
+    border-radius: 10px;
+}
+/*The Cloned Content*/
+.services-content-1{
+    width: 66.98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 44px;
+}
+.services-content-1 .Second-Section{
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next line */
+    gap: 16px; /* Space between the divs */
+    justify-content: space-between; /* Distributes the space evenly */
+    align-items: stretch;
+}
+
+.services-content-1 .Second-Section > div {
+    /* width: 21.66vw; */
+    flex: 1 1 45%; /* Each div takes up 48% of the container's width */
+    box-sizing: border-box; /* Ensures padding and borders are included in the width */
+    overflow: hidden;
+    height: 264px;
+}
+.Second-Section .second p:nth-child(1){
+    margin: 0;
+}
+.services-content-1 .First-Section{
+    width: 419px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+}
+.services-content-1 .First-Section-Title{
+    padding: 0px 120px 0px 120px;
+    margin-bottom: 56px;
+}
+.services-content-1 .First-Section p:nth-child(1){
+    font-family:Rubik;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0;
+}
+.services-content-1 .content-1{
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: bold;
+    color: #CCD0CF;
+    margin-bottom: 73px;
+}
+.services-content-1 .First-Section p:nth-child(3){
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.services-content-1 .Second-Section{
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next line */
+    gap: 13px; /* Space between the divs */ 
+    align-items: stretch;
+}
+
+.services-content-1 .Second-Section > div {
+    /* width: 21.66vw; */
+    flex: 1 1 48%; /* Each div takes up 48% of the container's width */
+    box-sizing: border-box; /* Ensures padding and borders are included in the width */
+    margin: 10px 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.services-content-1 .first{
+    padding: 64px 47px 73px 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #2C4A52;
+    border-radius: 20px;
+}
+.services-content-1 .first p:nth-child(1){
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: bold;
+}
+.services-content-1 .first p:nth-child(2){
+    font-size: 15px;
+    font-family: Inter;
+    color: #FFFFFF;
+}
+.services-content-1 .second{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.services-content-1 .second p{
+    font-family: Rubik;
+    font-size: 55px;
+    font-weight: bold;
+    color: #06141B;
+}
+.services-content-1 .third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 49px 49px 68px 50px;
+    gap: 40px;
+    background-color: #132E35;
+    border-radius: 20px;
+}
+.services-content-1 .third p:nth-child(1){
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.services-content-1 .third p:nth-child(2){
+    font-family: Inter;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.services-content-1 .fourth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 49px 49px 88px 50px;
+    gap: 40px;
+    background-color: #69818D;
+    border-radius: 20px;
+}
+.services-content-1 .fourth  p:nth-child(1){
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.services-content-1 .fourth p:nth-child(2){
+    font-family: Inter;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+/*End Of Cloned Content*/
+.Hidden-Content{
+    display: none;
+}
+.services-content-partner{
+    width: 66.98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.services-content-partner .First-Section{
+    width: 419px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+}
+.First-Section-Title{
+    padding: 0px 120px 0px 120px;
+    margin-bottom: 56px;
+}
+.First-Section-Title p{
+    font-family: Rubik,sans-serif;
+    font-size: 64px;
+}
+.services-content-partner .First-Section p:nth-child(1){
+    font-family:Rubik;
+    font-size: 55px;
+    font-weight: bold;
+    margin: 0;
+}
+.content-1{
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: bold;
+    color: #CCD0CF;
+    margin-bottom: 73px;
+}
+/* .First-Section .content-2 p{
+    width: 16.04vw;
+    font-family: Rubik,sans-serif;
+    font-size: 14px;
+} */
+.content-2{
+    width: 16.04vw;
+}
+.services-content-partner .First-Section .content-2 p{
+    font-family: Rubik,sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.services-content-1 .First-Section .content-2 p{
+    font-family: Rubik,sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.services-content-partner .Second-Section{
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping to the next line */
+    gap: 16px; /* Space between the divs */
+    justify-content: space-between; /* Distributes the space evenly */
+    align-items: stretch;
+}
+
+.Second-Section > div {
+    flex: 1 1 48%;
+    box-sizing: border-box;
+    height: 261px;
+}
+.first{
+    padding: 64px 47px 73px 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #2C4A52;
+    border-radius: 20px;
+}
+.first p:nth-child(1){
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: bold;
+}
+.first p:nth-child(2){
+    font-size: 15px;
+    font-family: Inter;
+    color: #FFFFFF;
+}
+.second{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.second p{
+    font-family: Rubik , sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    color: #06141B;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 49px 49px 68px 50px;
+    gap: 40px;
+    background-color: #132E35;
+    border-radius: 20px;
+}
+.third p:nth-child(1){
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.third p:nth-child(2){
+    font-family: Inter;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.fourth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 49px 49px 88px 50px;
+    gap: 40px;
+    background-color: #69818D;
+    border-radius: 20px;
+}
+.fourth  p:nth-child(1){
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.fourth p:nth-child(2){
+    font-family: Inter;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.li-content{
+    margin-bottom: 44px;
+}
+.eaneer_logo{
+    margin-bottom: 69.7px;
+}
+
+
+
+
+
+/*This Is The End Of Modification*/
+.Fourth-Main {
+    width: 68vw;
+    display: flex;
+    justify-content: space-between; /* Changed to space-between */
+    background-color: white;
+    color: black;
+    padding: 7vh; /* Ensure padding is applied */
+    border-radius: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the total width/height */
+    margin-bottom: 33.9px;
+}
+.Fourth-Main .Fourth-Main1{
+    margin-right: 150px;
+    
+}
+.Fourth-Main1 {
+    width: 37vw;
+    padding: 1rem; /* Add padding inside Fourth-Main1 if needed */
+}
+
+.Fourth-Main1 .content {
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: bolder;
+    width: 485px;
+}
+
+.Fourth-Main1 p:nth-child(1) {
+    font-family: 'Source Code Pro';
+    font-size: 18px;
+    color: #69818D;
+    margin-bottom: 0;
+}
+.Fourth-Main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.Fourth-Main input {
+    width: 324px;
+    padding: 15px;
+    border-radius: 7px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Fourth-Main button {
+    width: 324px;
+    padding: 15px;
+    background-color: #2C4A52;
+    color: white;
+    border-radius: 7px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 1499px) {
+    .services-content-1 .Second-Section > div {
+        flex: 1 1 100%; /* Each div takes up 100% of the container's width */
+        margin-bottom: 16px; /* Optional: Adds space between stacked items */
+    }
+}

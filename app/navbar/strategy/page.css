@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+.Main-Strategy{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Main-Strategy .Main-Strategy-Titles{
+    margin-top: 80px;
+    margin-bottom: 67px;
+    width: 42.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Main-Strategy-Titles p{
+    margin-bottom: 29px;
+}
+.Main-Strategy-Titles p:nth-child(3){
+    font-family: Source Code Pro;
+    font-size: 18px;
+    color: #CCD0CF;
+}
+.Main-Strategy-Titles p:nth-child(4){
+    font-family: Libre Franklin;
+    font-size: 28px;
+    font-weight: 300;
+}
+.Main-Strategy-Titles p:nth-child(5){
+    font-family: Inter;
+    font-size: 18px;
+}
+.Main-Strategy-Content{
+    margin-bottom: 126px;
+}
+.Main-Strategy-Content .Image-Strategy{
+    width: 100vw;
+}
+.Main-Strategy-Content2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2C4A52;
+}
+.Main-Strategy-Content2 .Content2-Titles{
+    width: 66.68vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 37px;
+}
+.Content2-Titles p:nth-child(1){
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: bold;
+    color: #CCD0CF;
+}
+.Content2-Titles p:nth-child(2){
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 300;
+}
+.Main-Strategy-Content2 .Content2-Content{
+    width: 50.625vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 158px;
+    margin-bottom: 75px;
+}
+.Content2-Content .Content1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.Content1 div{
+    border: 1px solid #FFFFFF;
+    padding: 12px 11px 32px 12px;
+    border-radius: 20px;
+    width: 24.68vw;
+}
+.Content2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 23.38vw;
+    height: 14.41vh;
+}
+.Content2 .Content2-Title{
+    width: 13.54vw;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 52px;
+}
+.Content2-Title p{
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: bold;
+    color: #CCD0CF;
+}
+.Content2 .Content2-Content{
+    width: 21.66vw;
+    display: flex;
+    align-items: center;
+    gap: 158px;
+    margin-bottom: 108px;
+    padding: 0px 0px 0px 30px ;
+}
+.Content2 .Content2-Content p{
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 300;
+}
+.Content2 .Content2-Footer{
+    margin-bottom: 32px;
+}
+.Content2-Footer p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+}
+.Content2 .Content2-Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Content2 .Content2-Button button{
+    padding: 5px 85px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.Main-Strategy-Content3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    color: black;
+    margin-bottom: 107px;
+}
+.Main-Strategy-Content3 .Content3-Holder{
+    width: 42.91vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+}
+.Content3-Holder .First-Holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21px;
+}
+.First-Holder p{
+    font-family: Libre Franklin;
+    font-size: 36px;
+    font-weight: 300;
+}
+.Content3-Holder .Second-Holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+}
+.Second-Holder div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    background-color: #2C4A52;
+    color: #FFFFFF;
+    padding: 15px 13px 20px 19px;
+    width: 17.55vw;
+}
+.Content3-Holder .Third-Holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+.Third-Holder p{
+    margin-bottom: 0;
+}
+.Fourth-Main {
+    width: 68vw;
+    display: flex;
+    justify-content: space-between; /* Changed to space-between */
+    background-color: white;
+    color: black;
+    padding: 7vh; /* Ensure padding is applied */
+    border-radius: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the total width/height */
+    margin-bottom: 33.9px;
+}
+.Fourth-Main .Fourth-Main1{
+    margin-right: 150px;
+    
+}
+.Fourth-Main1 {
+    width: 37vw;
+    padding: 1rem; /* Add padding inside Fourth-Main1 if needed */
+}
+
+.Fourth-Main1 .content {
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: bolder;
+    width: 485px;
+}
+
+.Fourth-Main1 p:nth-child(1) {
+    font-family: 'Source Code Pro';
+    font-size: 18px;
+    color: #69818D;
+    margin-bottom: 0;
+}
+.Fourth-Main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.Fourth-Main input {
+    width: 324px;
+    padding: 15px;
+    border-radius: 7px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Fourth-Main button {
+    width: 324px;
+    padding: 15px;
+    background-color: #2C4A52;
+    color: white;
+    border-radius: 7px;
+}

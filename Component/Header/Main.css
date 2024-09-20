@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+.Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding:0px;
+    margin: 0px; */
+    /* box-shadow: 0 5px 10px rgba(112, 112, 112, 0.5); */
+}
+.Title-Line{
+    padding-top: 100px;
+    display: flex;
+    justify-content:center ;
+    margin-top: 60px;
+}
+.Title-Line p{
+    font-family: Source Code Pro;
+    font-size: 14px;
+}
+.Bold-Line-Title{
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 14px;
+    padding: 10px;
+}
+.Bold-Line-Title p{
+    margin:0;
+    font-family:Source Code Pro;
+    font-size: 64px;
+    font-weight: bold;
+}
+.Board-Titles .Inter-font{
+    font-family: Inter;
+    font-size: 18px;
+    color: #CCD0CF;
+}
+.Input{
+    margin-bottom: 40px;
+}
+.Input input{
+    border: none;
+    border-radius: 10px;
+    background-color: #06141B;
+    color: white;
+}
+.input-style input:focus{
+    outline: none;
+}
+.Input .input-style{
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px 0 rgba(255, 255, 255, 0.8);}
+.Input .input-style button{
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+.Phrase{
+    font-family: Source Code Pro ;
+    font-size: 18px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.Cards {
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+.Cards > div{
+    border-radius: 10px;
+    width: 27.29vw;
+}
+  
+  .Cards div {
+    flex-basis: calc(50% - 8px); /* Adjusting for the gap */
+  }
+
+.Cards .card{
+   
+        display: flex;
+        flex-direction: column;
+        padding: 19px 21px;
+}
+.Cards .card-black{
+        background-color: #06141B;
+        color: #FFFFFF;
+        width: 27.3vw;
+        box-shadow: 0 4px 8px #707070; 
+}
+.card-black .Text{
+    width: 18.4vw;
+    display: flex;
+    margin-left: 20px;
+}
+.card-black p{
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: bold;
+}
+.Cards .card-white{
+    color: #11212D;
+    background-color: #FFFFFF;
+    width: 27.3vw;
+}
+.card-white .Text{
+    width: 18.4vw;
+    margin-left: 20px;
+}
+.card-white p{
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: bold;
+}
+.Cards .top-banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between ;
+}
+.Text p{
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 500;
+}
+.top-banner Image{
+    padding: 0;
+}
+.top-banner p{
+    font-family: Inter;
+    font-size:14px;
+}
+
+.Button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 10px;
+    height: 26px;
+  }
+.Button button{
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 3px 18px 5px 18px;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26px;
+}
+.card-white button{
+    background-color: #06141B;
+    color: white;
+}
+.card-black button{
+    color: #132E35;
+}
+.Second-Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 98.99vw;
+    background-color:#2C4A52;
+    padding: 0px 0px 74px 0px;
+    margin-bottom: 30px;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Optional: to ensure body takes full width */
+}
+.Second-Titles{
+    margin-top: 38px;
+    width: 66.4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Second-Titles p:nth-child(1){
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: bold;
+    color: #CCD0CF;
+}
+.Second-Titles p:nth-child(2){
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.Competences .info-section{
+    width: 474px;
+}
+.Competences .info-section p:nth-child(1){
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: bold;
+    color: #CCD0CF;
+}
+.Competences .info-section p:nth-child(2){
+    font-family: Inter;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.New-Second-Main-Second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 154px;
+    width: 57.2vw;
+}
+.Second-Main .info-section{
+    border: 1px solid #707070;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.info-section{
+    margin-bottom: 25px;
+}
+.Second-Main .info-section p{
+    text-align: center;
+}
+
+.Second-Main-second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 22.7vw;
+    height: 10.04vh;
+}
+.Second-Main-second .Second-Main-Title{
+    margin: 0;
+    text-align: left;
+}
+.Second-Main-second button{
+    border: #707070;
+    border-radius: 6px;
+}
+.Second-Main-Title p{
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: bold;
+    color: #CCD0CF;
+}
+.Second-Main-second .Second-Main-Paragraph{
+    padding: 52px 0px 52px 0px;
+}
+.Second-Main-second .Second-Main-Paragraph p{
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.Second-Main-second .footer p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+
+
+}
+.Second-Main-second .Button{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+.Second-Main-second .Button button{
+    display: flex;
+    justify-content: center;
+    width: 15vw;
+    padding: 4px 85px;
+    border-radius: 10px;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: bold;
+}
+hr{
+    border: none;
+    height: 3px;
+    background-color:white;
+}
+.Third-Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 38px 0px 0px 0px;
+}
+.Third-Main-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Sub-Third-Main-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 70px;
+}
+.Third-Main-Titles{
+    width: 60.62vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Third-Main-Titles p{
+    font-family: Source Code Pro;
+    font-size: 18px;
+    text-align: center;
+} 
+.Third-Main-Titles h2{
+    font-family: Libre Franklin;
+    font-size: 26px;
+}
+.Third-Main-Style{
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+    margin-top: 70px;
+    width: 66.4vw;
+    margin: 0 auto 106px auto;
+}
+.Props{
+    flex: 1;
+}
+.Props-Title{
+    margin-bottom: 18px;
+}
+.Third-Main-Style .Props-Title p{
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: bold;
+    color: #CCD0CF;
+    margin-bottom: 0;
+}
+.Third-Main-Style .Props-Title h3{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: left;
+}
+.Props-Content{
+    width: 339px;
+}
+.Props-Content p{
+    font-family: Inter;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.Board{
+    width: 66.68vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 80px;
+    box-shadow: 0 4px 8px #707070; 
+    border-radius: 10px;
+    margin-bottom: 44px;
+}
+.Board-Titles{
+    margin-top: 37px;
+    margin-bottom: 56px;
+}
+.Board-Titles p:nth-child(1){
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: 400;
+    color: #CCD0CF;
+}
+.Board-Titles .Inter-font{
+    font-family: Inter;
+    font-size: 20px;
+    color: #CCD0CF;
+}
+.Inter-font{
+    width: 42.1875vw;
+}
+.Board-Titles h3{
+    margin-bottom: 11px;
+}
+.Board-Titles p,h3{
+    text-align: center;
+}
+.Sub-Board1{
+    background-color: #2C4A52;
+    padding: 2px 40px ;
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 10px;
+    margin: 0px 0px 44px 0px;
+}
+.Sub-Board1 .Board-Title{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.Sub-Board1 .Board-Title p{
+    font-family: Source Code Pro;
+    font-size: 18px;
+    color: #CCD0CF;
+    font-weight: bold;
+}
+.Sub-Board1 .Board-Title-Bold{
+    margin-bottom: 27px;
+}
+.Sub-Board1 .Board-Title-Bold h3{
+    font-size: 22.5px;
+    font-family: Libre Franklin;
+    padding: 0 92px 0 92px;
+}
+.Sub-Board1 .Board-Content{
+    margin-bottom: 66px;
+}
+.Sub-Board1 .Board-Content p{
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 18px;
+    color: #CCD0CF;
+    padding: 0 92px 0 92px;
+}
+.Sub-Board1 .Board-Button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+.Board-Button button{
+    width: 232px;
+    border-radius: 10px;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: bold;
+    border: #707070;
+}
+.Sub-Board1 .Board-Title p{
+    text-align: center;
+}
+
+.Board-Footer p{
+    text-align: center;
+    font-family: Source Code Pro;
+    font-size: 18px;
+}
+.Fourth-Main {
+    width: 68vw;
+    display: flex;
+    justify-content: space-between; /* Changed to space-between */
+    background-color: white;
+    color: black;
+    padding: 7vh; /* Ensure padding is applied */
+    border-radius: 20px;
+    box-sizing: border-box; /* Ensure padding is included in the total width/height */
+    margin-bottom: 33.9px;
+}
+.Fourth-Main .Fourth-Main1{
+    margin-right: 150px;
+    
+}
+.Fourth-Main1 {
+    width: 37vw;
+    padding: 1rem; /* Add padding inside Fourth-Main1 if needed */
+}
+
+.Fourth-Main1 .content {
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: bolder;
+    width: 485px;
+}
+
+.Fourth-Main1 p:nth-child(1) {
+    font-family: 'Source Code Pro';
+    font-size: 18px;
+    color: #69818D;
+    margin-bottom: 0;
+}
+.Fourth-Main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.Fourth-Main input {
+    width: 324px;
+    padding: 15px;
+    border-radius: 7px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Fourth-Main button {
+    width: 324px;
+    padding: 15px;
+    background-color: #2C4A52;
+    color: white;
+    border-radius: 7px;
+}
+@media (min-width:1366px) and (max-width:1920px) {
+    .Second-Main-second{
+        width: 22.7vw;
+        height: 68.78%;
+    }
+    .Second-Main-Paragraph p{
+        font-size: 15px;
+    }
+    /* .Fourth-Main{
+        display: flex ;
+        flex-direction: column;
+    }
+    .Fourth-Main1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Fourth-Main2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+    
+}
+@media (min-width:1921px) {
+    .Cards {
+        width: 55vw;
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-bottom: 40px;
+      }
+      
+      .Cards div {
+        flex-basis: calc(50% - 8px); /* Adjusting for the gap */
+      }
+    
+    .Cards .card{
+       
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 19px 21px;
+    }
+    .Cards .card-white{
+        color: #11212D;
+        background-color: #FFFFFF;
+        width: 524px;
+    }
+    .Cards .card-black{
+       
+            background-color: #06141B;
+            color: #FFFFFF;
+            width: 524px;
+    }
+    .Second-Main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        background-color:#2C4A52;
+        padding: 0px 0px 74px 0px;
+        margin-bottom: 30px;
+    }
+    .Second-Titles{
+        width: 66.6vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+@media  screen and (max-width:1600px) {
+    .Main{
+        width: 100vw;
+    } 
+}

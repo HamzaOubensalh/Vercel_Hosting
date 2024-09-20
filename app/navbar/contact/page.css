@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    /* overflow-x:hidden; */
+    margin: 0;
+    padding: 0; 
+    /* font-family: 'Inter', sans-serif; */
+}
+body{
+    padding-top: 140px;
+}
+.Holder-Main-Container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.First-Holder{
+    width: 40.22vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 102px;
+}
+.First-Holder p:nth-child(1){
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: bold;
+    color: #CCD0CF;
+}
+.First-Holder p:nth-child(2){
+    font-family: Libre Franklin;
+    font-size: 64px;
+    font-weight: bold;
+}
+.First-Holder p:nth-child(3){
+    font-family: Inter;
+    font-size: 18px;
+    color: #CCD0CF;
+}
+.First-Holder p:nth-child(4){
+    font-family: Inter;
+    font-size: 18px;
+    color: #CCD0CF;
+}
+.Second-Holder{
+    width: 100%;
+    background-color: #132E35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Second-Holder-Content{
+    width: 66.68vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 107px;
+    padding-top: 55px;
+}
+.First-Content-Info-Contact{
+    margin-bottom: 115px;
+}
+.First-Info,.Second-Info,.Third-Info{
+    display: flex;
+    gap: 34px;
+}
+ .First-Info-Content,.Second-Info-Content,.Third-Info-Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.First-Content-Info-Contact p{
+    margin: 5px;
+}
+.First-Content-Titles p:nth-child(1){
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: bold;
+}
+.First-Content-Titles{
+    margin-bottom: 83px;
+}
+.First-Content-Titles p:nth-child(2){
+    font-family: Inter;
+    font-size: 14px;
+}
+.First-Content-Info-Contact p{
+    font-family: Inter;
+    font-size: 14px;
+}
+.Second-Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Second-Content .Form{
+    width: 27.29vw;
+    height: 495px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Form input{
+    border: none;
+    border-bottom: 1px solid #707070;
+}
+.Second-Content-Title{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.Second-Content-Title p{
+    color: black;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 83px;
+}
+.Form .Submit-Button{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 68px;
+}
+.Submit-Button button{
+    padding: 5px 24px 5px 24px;
+    border-radius: 10px;
+    border: none;
+    background-color: #132E35;
+    color: white;
+}
+.Form input{
+    margin-bottom: 25px;
+    width: 16.04vw;
+}
+.Form input:focus{
+    border: white;
+}
+.Second-Content-Title{
+    padding-left: 0px;
+}
+form{
+    padding-left: 110px;
+    padding-right: 40px;
+} 
+.Social-Media-Icons{
+    margin-top: 38px;
+    margin-bottom: 32px;
+}
+.Social-Media-Icons .Social-Media-Icons-Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}

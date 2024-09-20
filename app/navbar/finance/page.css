@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+.Main-Finance-Main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Main-Finance-Main1{
+    width: 42.39vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 26px;
+}
+.Main-Finance-Main1 p:nth-child(5){
+    margin-top: 68px;
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: 400;
+    color: #CCD0CF;
+}
+.Main-Finance-Main1 p:nth-child(6){
+    margin-top: 17px;
+    font-family: Rubik,sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.Main-Finance-Main1 p:nth-child(7){
+    margin: 0px;
+    font-family: Rubik,sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.Main-Finance-Main1 p:nth-child(8){
+    margin-top: 23px;
+    font-family: Inter;
+    font-size: 18px;
+    color: #CCD0CF;
+}
+.Main-Finance-Main2{
+    margin-bottom: 81.7px;
+}
+.Main-Finance-Main2 .first-image{
+    width: 100%;
+}
+.Main-Finance-Main3{
+    margin-bottom: 81.7px;
+}
+.Main-Finance-Main4{
+    width: 55.41vw;
+    background-color: #132E35;
+    padding: 22px 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px #707070;
+    margin-bottom: 121px;
+}
+.Main-Finance-Main4 p{
+    font-family: Libre Franklin;
+    font-size: 28px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.Main-Finance-Main5{
+    width: 55.41vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 92px;
+}
+.Main-Finance-Main5 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 48%; /* Adjust as needed */
+    margin-bottom: 20px; /* Add spacing between rows */
+}
+.Content-Title p{
+    font-family: Libre Franklin;
+    font-size: 28px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.Content-Content{
+    width: 22.5vw;
+}
+.Content-Content p{
+    font-family: Inter;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.Main-Finance-Main5 .Main5-image{
+    width: 27.44vw;
+}
+.Main-Finance-Main6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #132E35;
+    padding-top: 42px;
+    padding-bottom: 67px;
+    margin-bottom: 54px;
+}
+.Main-Finance-Main6 .Main-Finance-Main6-Holder{
+    width: 66.66vw;
+    display: flex;
+    flex-direction: column;
+}
+.Main-Finance-Main6-Holder> p:nth-child(1){
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: 400;
+}
+.Main-Finance-Main6-Holder> p:nth-child(2){
+    font-family: Rubik,sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+.Main-Finance-Main6-Holder> p:nth-child(3){
+    font-family: Rubik,sans-serif;
+    font-size: 28px;
+}
+.Main-Finance-Main6 .Sectors-Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
+.Sectors-Div>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17.2px;
+}
+.Sectors-Div>div .content p{
+    margin: 0px;
+}
+.Main-Finance-Main7{
+    background-color: #2C4A52;
+    width: 66.66vw;
+    display: flex;
+    flex-direction: column;
+    padding: 39px 108px;
+    border-radius: 20px;
+    margin-bottom: 107px;
+}
+.Main-Finance-Main7 p:nth-child(1){
+    margin-bottom: 41px;
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.Main-Finance-Main7 p:nth-child(2){
+    font-family: Rubik,sans-serif;
+    font-size: 26px;
+    color: #FFFFFF;
+}
+.Main-Finance-Main8{
+    width: 66.66vw;
+    margin-bottom: 80px;
+}
+.Main-Finance-Main8 p{
+    font-family: Libre Franklin;
+    font-size: 60px;
+    font-weight: 400;
+}
+.Main-Finance-Main9{
+    width: 66.66vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 178px;
+    margin-bottom: 118px;
+}
+.Main-Finance-Main9 p:nth-child(1){
+    font-family: Rubik,sans-serif;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.Main-Finance-Main9 p:nth-child(2){
+    font-family: Rubik,sans-serif;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.Fourth-Main {
+    width: 68vw;
+    display: flex;
+    justify-content: space-between; /* Changed to space-between */
+    background-color: white;
+    color: black;
+    padding: 7vh;
+    border-radius: 10px;
+    box-sizing: border-box; /* Ensure padding is included in the total width/height */
+    margin-bottom: 121px;
+    margin-top: 87px;
+    /* margin-top: 20px; */
+    /* position: relative;
+    top: 10px; */
+}
+.Fourth-Main .Fourth-Main1{
+    margin-right: 150px;
+    
+}
+.Fourth-Main1 {
+    width: 37vw;
+    padding: 1rem; /* Add padding inside Fourth-Main1 if needed */
+}
+
+.Fourth-Main1 .content {
+    font-family: Raleway;
+    font-size: 35px;
+    font-weight: bolder;
+    width: 485px;
+}
+
+.Fourth-Main1 p:nth-child(1) {
+    font-family: 'Source Code Pro';
+    font-size: 18px;
+    color: #69818D;
+    margin-bottom: 0;
+}
+.Fourth-Main2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.Fourth-Main input {
+    width: 324px;
+    padding: 15px;
+    border-radius: 7px;
+    margin-bottom: 7px;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Fourth-Main button {
+    width: 324px;
+    padding: 15px;
+    background-color: #2C4A52;
+    color: white;
+    border-radius: 7px;
+}
