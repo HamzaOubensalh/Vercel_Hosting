@@ -1,8 +1,8 @@
 {
-  "homepage": "https://HamzaOubensalh.github.io/eaneer_electric",
+  "homepage": "https://HamzaOubensalh.github.io/Project_Hosting",
   "name": "eaanern",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
