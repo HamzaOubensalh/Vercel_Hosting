@@ -7,30 +7,32 @@
     align-items: center;
 }
 .Main-Strategy .Main-Strategy-Titles{
-    margin-top: 80px;
     margin-bottom: 67px;
     width: 42.5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 80px;
 }
-.Main-Strategy-Titles p{
+.Main-Strategy-Titles p:nth-child(2){
     margin-bottom: 29px;
 }
 .Main-Strategy-Titles p:nth-child(3){
     font-family: Source Code Pro;
     font-size: 18px;
     color: #CCD0CF;
+    margin-bottom: 15px;
 }
 .Main-Strategy-Titles p:nth-child(4){
     font-family: Libre Franklin;
     font-size: 28px;
     font-weight: 300;
+    margin-bottom: 15px;
 }
 .Main-Strategy-Titles p:nth-child(5){
     font-family: Inter;
-    font-size: 18px;
+    font-size: 17px;
 }
 .Main-Strategy-Content{
     margin-bottom: 126px;

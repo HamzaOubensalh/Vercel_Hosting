@@ -15,21 +15,22 @@
     margin-bottom: 26px;
 }
 .Main-Finance-Main1 p:nth-child(5){
-    margin-top: 68px;
+    margin-top: 60px;
     font-family: Source Code Pro;
     font-size: 18px;
     font-weight: 400;
     color: #CCD0CF;
 }
 .Main-Finance-Main1 p:nth-child(6){
-    margin-top: 17px;
+    margin-top: 15px;
     font-family: Rubik,sans-serif;
     font-size: 54px;
     font-weight: 400;
     color: #FFFFFF;
+    margin-bottom: 0px;
 }
 .Main-Finance-Main1 p:nth-child(7){
-    margin: 0px;
+    margin-top: 0px;
     font-family: Rubik,sans-serif;
     font-size: 30px;
     font-weight: 400;
@@ -94,6 +95,7 @@
     font-family: Inter;
     font-size: 22px;
     color: #FFFFFF;
+    font-weight: 300;
 }
 .Main-Finance-Main5 .Main5-image{
     width: 27.44vw;
@@ -152,7 +154,7 @@
     margin-bottom: 107px;
 }
 .Main-Finance-Main7 p:nth-child(1){
-    margin-bottom: 41px;
+    margin-bottom: 21px;
     font-family: Source Code Pro;
     font-size: 18px;
     font-weight: 400;
@@ -182,13 +184,15 @@
 }
 .Main-Finance-Main9 p:nth-child(1){
     font-family: Rubik,sans-serif;
-    font-size: 25px;
+    font-size: 23px;
     color: #FFFFFF;
+    font-weight: 800;
 }
 .Main-Finance-Main9 p:nth-child(2){
     font-family: Rubik,sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     color: #FFFFFF;
+    font-weight: 100;
 }
 .Fourth-Main {
     width: 68vw;

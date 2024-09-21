@@ -79,19 +79,6 @@ const Carrer = () => {
             <div className="Main-Career-Main9">
                 <Image src={component23} alt={""} height={37.6} width={33.83}></Image>
             </div>
-            <div className="Main-Career-Main10">
-                <p>Life at eaneer</p>
-                <p>Perks and benefits</p>
-            </div>
-            <div className="Main-Career-Main11">
-                <p>We put people first. That means customers.
-                    That means leaders. That means you and your family.
-                    We aspire to be the best place you’ve ever worke.
-                    And that begins with amazing benefits.</p>
-            </div>
-            <div className="Main-Career-Main12">
-                <Image src={component23} alt={""} height={37.6} width={33.83}></Image>
-            </div>
             <div className="Main-Career-Main13">
                 <p>Core values</p>
                 <p>The values that drive us</p>

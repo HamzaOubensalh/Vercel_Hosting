@@ -12,25 +12,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 29px;
     margin-bottom: 75px;
+    margin-top: 29px;
 }
 .Main-Support-Titles p:nth-child(3){
-    margin-top: 50px;
+    margin-top: 60px;
     font-family: Source Code Pro;
     font-size: 18px;
     color: #CCD0CF;
+
 }
 .Main-Support-Titles p:nth-child(4){
     font-family: Libre Franklin;
     font-size: 28px;
     color: #FFFFFF;
+    margin-top: 15px;
 }
 .Main-Support-Titles p:nth-child(5){
     font-family: Inter;
     font-size: 18px;
     color: #FFFFFF;
     font-weight: 300;
+    margin-top: 15px;
 }
 .Main-Support-Para1{
     width: 55.41vw;
