@@ -17,7 +17,12 @@ const Innovation = () => {
         <p>Transforming Ideas Into Sustainable Solutions</p>
       </div>
       <div className="Main-Innovation-Main1">
-        <Image className="image-1" src={mask_group_22} height={507}></Image>
+        <Image
+          className="image-1"
+          src={mask_group_22}
+          height={507}
+          alt="image_1"
+        ></Image>
       </div>
       <div className="Main-Innovation-Main2">
         <Image
@@ -25,6 +30,7 @@ const Innovation = () => {
           src={component23}
           height={75.07}
           width={67.54}
+          alt="image_2"
         ></Image>
       </div>
       <div className="Main-Innovation-Main3">
@@ -117,7 +123,12 @@ const Innovation = () => {
             </p>
           </div>
           <div className="icon">
-            <Image src={component23} height={37.6} width={33.83}></Image>
+            <Image
+              src={component23}
+              height={37.6}
+              width={33.83}
+              alt="image_3"
+            ></Image>
           </div>
         </div>
       </div>
