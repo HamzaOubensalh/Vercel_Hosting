@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.Main-Innovation {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Main-Innovation .Main-Innovation-Titles {
+  width: 27.82vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 112px;
+  margin-top: 40px;
+}
+.Main-Innovation-Titles p:nth-child(3) {
+  font-family: Source Code Pro;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #ccd0cf;
+  margin-top: 100px;
+  margin-bottom: 3px;
+}
+.Main-Innovation-Titles p:nth-child(4) {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.Main-Innovation-Titles p:nth-child(5) {
+  font-family: Source Code Pro;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ccd0cf;
+}
+.Main-Innovation-Main1 {
+  margin-bottom: 55px;
+}
+.Main-Innovation-Main1 .image-1 {
+  width: 100%;
+}
+.Main-Innovation-Main2 {
+  margin-bottom: 52px;
+}
+.Main-Innovation-Main3 {
+  width: 66.66vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-bottom: 97px; */
+}
+.Main-Innovation-Main3 .Main-Innovation-Main3-Title {
+  margin-bottom: 69px;
+  margin-top: 30px;
+}
+.Main-Innovation-Main3-Title p {
+  font-family: Rubik;
+  font-size: 53px;
+  font-weight: bold;
+}
+.Main-Innovation-Main3-Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+  margin-bottom: 140px;
+}
+.Main-Innovation-Main3-Content .Item {
+  border-radius: 20px;
+  background-color: #2c4a52;
+  padding-left: 108px;
+  padding-right: 108px;
+  padding-top: 18px;
+}
+.Item p:nth-child(1) {
+  font-family: Rubik;
+  font-size: 33px;
+}
+.Item p:nth-child(2) {
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 300;
+}
+.Main-Innovation-Main3-Content .icon {
+  margin-top: 97px;
+}
+.Main-Innovation-Main4 {
+  width: 55.42vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 94px;
+}
+.Main-Innovation-Main4 p {
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.Fourth-Main {
+  width: 68vw;
+  display: flex;
+  justify-content: space-between; /* Changed to space-between */
+  background-color: white;
+  color: black;
+  padding: 7vh;
+  border-radius: 20px;
+  box-sizing: border-box; /* Ensure padding is included in the total width/height */
+  margin-bottom: 74.9px;
+  /* margin-top: 20px; */
+  /* position: relative;
+      top: 10px; */
+}
+.Fourth-Main .Fourth-Main1 {
+  margin-right: 150px;
+}
+.Fourth-Main1 {
+  width: 37vw;
+  padding: 1rem; /* Add padding inside Fourth-Main1 if needed */
+}
+
+.Fourth-Main1 .content {
+  font-family: Raleway;
+  font-size: 35px;
+  font-weight: bolder;
+  width: 485px;
+}
+
+.Fourth-Main1 p:nth-child(1) {
+  font-family: "Source Code Pro";
+  font-size: 18px;
+  color: #69818d;
+  margin-bottom: 0;
+}
+.Fourth-Main2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 200px;
+}
+
+.Fourth-Main input {
+  width: 324px;
+  padding: 15px;
+  border-radius: 7px;
+  margin-bottom: 7px;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Fourth-Main button {
+  width: 324px;
+  padding: 15px;
+  background-color: #2c4a52;
+  color: white;
+  border-radius: 7px;
+}

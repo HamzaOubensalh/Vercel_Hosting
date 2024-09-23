@@ -119,7 +119,7 @@ const Header: React.FC = () => {
                         <p>Join eaneer's affiliate program and partner with us to drive mutual growth and success.</p>
                       </div>
                       <div>
-                        <a href="">Innovation</a>
+                        <a href="/navbar/innovation">Innovation</a>
                         <p>Explore the cutting-edge technologies and innovative solutions that power e
                           eaneer's success.</p>
                       </div>

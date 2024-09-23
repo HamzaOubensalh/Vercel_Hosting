@@ -38,6 +38,7 @@ import Mask_Group_20 from './Mask Group 20.png';
 import Mask_Group_1 from './Mask Group 1.png';
 import Group_225 from './Group 225.png';
 import Image_App from './mobile-app.png';
+import Mask_Group_22 from './Mask Group 22.png';
 
 export const tractore=Tractore;
 export const down=Down;
@@ -79,3 +80,4 @@ export const mask_group_20=Mask_Group_20;
 export const mask_group_1=Mask_Group_1;
 export const group_225=Group_225;
 export const image_app=Image_App;
+export const mask_group_22=Mask_Group_22;
