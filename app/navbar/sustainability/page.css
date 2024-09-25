@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+.Main-Sustainability {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Main-Sustainability-Titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+  margin-bottom: 57px;
+  width: 53.75vw;
+}
+.Main-Sustainability-Titles p:nth-child(4) {
+  font-family: Source Code Pro;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ccd0cf;
+}
+.Main-Sustainability-Titles p:nth-child(5) {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: bold;
+  width: 30vw;
+}
+.Main-Sustainability-Titles p:nth-child(6) {
+  font-family: Source Code Pro;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ccd0cf;
+}
+.Main-Sustainability-Main1 {
+  margin-bottom: 70px;
+}
+.Main-Sustainability-Main2 {
+  margin-bottom: 83px;
+}
+.Main-Sustainability-Main3 {
+  width: 66.66vw;
+  margin-bottom: 127px;
+}
+.Main-Sustainability-Main3 p:nth-child(1) {
+  font-family: Rubik;
+  font-size: 55px;
+  font-weight: 500;
+}
+.Main-Sustainability-Main3 p:nth-child(2) {
+  width: 44.17vw;
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 400;
+}
+.Main-Sustainability-Main4 {
+  width: 66.66vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 108px;
+  margin-bottom: 60px;
+}
+.Main-Sustainability-Main4 .Item1 {
+  width: 16.9vw;
+  height: 471px;
+}
+.Item1 p:nth-child(1) {
+  font-family: Rubik;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.Item1 p:nth-child(2) {
+  font-family: Rubik;
+  font-size: 21px;
+  font-weight: 100;
+}
+.Main-Sustainability-Main5 {
+  width: 100%;
+  background-color: #132e35;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 43px;
+  padding-bottom: 60px;
+  margin-bottom: 85px;
+}
+.Main-Sustainability-Main5 .Sub1 {
+  width: 66.66vw;
+  margin-bottom: 52px;
+}
+.Sub1 p {
+  font-family: Rubik;
+  font-size: 55px;
+  font-weight: bold;
+}
+.Main-Sustainability-Main5 .Sub2 {
+  width: 55.42vw;
+  padding-top: 30px;
+  margin-bottom: 60px;
+}
+.Sub2 p {
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 100;
+}
+.Main-Sustainability-Main5 .Sub3 {
+  width: 55.42vw;
+  padding-top: 30px;
+  margin-bottom: 60px;
+}
+.Sub3 p {
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 100;
+}
+.Main-Sustainability-Main5 .Sub4 {
+  width: 55.42vw;
+  margin-bottom: 60px;
+}
+.Sub4 p {
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 100;
+}
+.Main-Substainability-Main6 {
+  width: 66.66vw;
+  background-color: #2c4a52;
+  border-radius: 20px;
+  padding: 72px 108px 76px 108px;
+  margin-bottom: 71px;
+}
+.Main-Substainability-Main6 p:nth-child(1) {
+  font-family: Rubik;
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+.Main-Substainability-Main6 p:nth-child(2) {
+  font-family: Rubik;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 51px;
+}
+.Main-Substainability-Main6 p:nth-child(3) {
+  font-family: Rubik;
+  font-size: 22px;
+}
+.Fourth-Main {
+  width: 68vw;
+  display: flex;
+  justify-content: space-between; /* Changed to space-between */
+  background-color: white;
+  color: black;
+  padding: 7vh; /* Ensure padding is applied */
+  border-radius: 20px;
+  box-sizing: border-box; /* Ensure padding is included in the total width/height */
+  margin-bottom: 152.9px;
+}
+.Fourth-Main .Fourth-Main1 {
+  margin-right: 150px;
+}
+.Fourth-Main1 {
+  width: 37vw;
+  padding: 1rem; /* Add padding inside Fourth-Main1 if needed */
+}
+.Fourth-Main1 .content {
+  font-family: Raleway;
+  font-size: 35px;
+  font-weight: bolder;
+  width: 485px;
+}
+.Fourth-Main1 p:nth-child(1) {
+  font-family: "Source Code Pro";
+  font-size: 18px;
+  color: #69818d;
+  margin-bottom: 0;
+}
+.Fourth-Main2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 200px;
+}
+.Fourth-Main input {
+  width: 324px;
+  padding: 15px;
+  border-radius: 7px;
+  margin-bottom: 7px;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: bold;
+}
+.Fourth-Main button {
+  width: 324px;
+  padding: 15px;
+  background-color: #2c4a52;
+  color: white;
+  border-radius: 7px;
+}

@@ -99,7 +99,7 @@ const Header: React.FC = () => {
                         <p>Learn more about eaneer, our mission, and how we're revolutionizing the electrical industry.</p>
                       </div>
                       <div>
-                        <a href="">Technologies</a>
+                        <a href="/navbar/technology">Technologies</a>
                         <p>Experience the latest advancements in electrical engineering and technology with eaneer's state-of-the-art solutions.</p>
                       </div>
                       <div>
@@ -111,7 +111,7 @@ const Header: React.FC = () => {
                         <p>Explore eaneer's purpose: creating safer, more efficient electrical solutions for a sustainable future.</p>
                       </div>
                       <div>
-                        <a href="">Sustainability</a>
+                        <a href="/navbar/sustainability">Sustainability</a>
                         <p>eaneer is leading the charge towards a sustainable future through eco-friendly practices, renewable energy solutions.</p>
                       </div>
                       <div>
