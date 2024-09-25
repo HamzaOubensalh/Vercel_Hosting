@@ -30,7 +30,12 @@ const Sustainability = () => {
         </p>
       </div>
       <div className="Main-Sustainability-Main1">
-        <Image src={mask_group_28} height={489} alt="image-1"></Image>
+        <Image
+          className="image-1"
+          src={mask_group_28}
+          height={489}
+          alt="image-1"
+        ></Image>
       </div>
       <div className="Main-Sustainability-Main2">
         <Image

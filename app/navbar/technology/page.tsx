@@ -27,7 +27,12 @@ const Technology = () => {
         </p>
       </div>
       <div className="Main-Technology-Main1">
-        <Image src={mask_group_23} height={507} alt="image-1"></Image>
+        <Image
+          className="image-1"
+          src={mask_group_23}
+          height={507}
+          alt="image-1"
+        ></Image>
       </div>
       <div className="Main-Technology-Main2">
         <Image
