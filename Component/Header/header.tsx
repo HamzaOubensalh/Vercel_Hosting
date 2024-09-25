@@ -76,7 +76,7 @@ const Header: React.FC = () => {
       <div className="container-style2">
         <nav className="navbar navbar-expand-lg">
           <div className="brand-image">
-            <a className="navbar-brand" href="/app">
+            <a className="navbar-brand" href="/">
               <Image src={logo} alt={""} width={135.42} height={37.6} ></Image>
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
