@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+.Main-System-Security {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Main-System-Security .Main-System-Security-Titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 21.67vw;
+  margin-top: 157px;
+  margin-bottom: 97px;
+}
+.Main-System-Security-Titles p:nth-child(3) {
+  font-family: Source Code Pro;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ccd0cf;
+  margin-bottom: 20px;
+}
+.Main-System-Security-Titles p:nth-child(4) {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.Main-System-Security-Titles p:nth-child(5) {
+  font-family: Source Code Pro;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ccd0cf;
+}
+.Main-System-Security-Main1 {
+  width: 66.66vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 89px;
+}
+.Main-System-Security-Main1 .first {
+  padding: 41px 61px 56px 50px;
+  border: 2px solid #2c4a52;
+  border-radius: 20px;
+}
+.Main-System-Security-Main1 .first .first-titles {
+  margin-bottom: 27px;
+}
+.Main-System-Security-Main1 .first .first-titles p:nth-child(1) {
+  font-family: rubik;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.Main-System-Security-Main1 .first .first-titles p:nth-child(2) {
+  font-family: Inter;
+  font-size: 33px;
+  font-weight: bold;
+}
+.Main-System-Security-Main1 .first .first-content div {
+  display: flex;
+  gap: 24px;
+}
+.Main-System-Security-Main1 .first .first-content div p {
+  font-family: rubik;
+  font-size: 18px;
+  width: 24.17vw;
+}
+/* The Second Div */
+.Main-System-Security-Main1 .second {
+  padding: 41px 61px 56px 50px;
+  border: 2px solid #2c4a52;
+  border-radius: 20px;
+  background-color: #132e35;
+}
+.Main-System-Security-Main1 .second .first-titles {
+  margin-bottom: 27px;
+}
+.Main-System-Security-Main1 .second .first-titles p:nth-child(1) {
+  font-family: rubik;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+.Main-System-Security-Main1 .second .first-titles p:nth-child(2) {
+  font-family: Inter;
+  font-size: 33px;
+  font-weight: bold;
+}
+.Main-System-Security-Main1 .second .first-content div {
+  display: flex;
+  gap: 24px;
+}
+.Main-System-Security-Main1 .second .first-content div p {
+  font-family: rubik;
+  font-size: 18px;
+  width: 24.17vw;
+}
+.Main-System-Security-Main2 {
+  margin-bottom: 82px;
+}
+.Main-System-Security-Main3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #132e35;
+  margin-bottom: 86px;
+}
+.Main-System-Security-Main3 .Sub-Main3 {
+  width: 66.66vw;
+}
+.Sub-Main3 p:nth-child(1) {
+  width: 36.93vw;
+  font-family: rubik;
+  font-size: 33px;
+  font-weight: bold;
+  margin-bottom: 42px;
+}
+.Sub-Main3 p:nth-child(2) {
+  width: 100%;
+  font-family: rubik;
+  font-size: 23px;
+  margin-bottom: 42px;
+}
+.Sub-Div {
+  display: flex;
+  justify-content: center;
+  gap: 108px;
+}
+.Sub-Div p {
+  font-family: rubik;
+  font-size: 10px;
+  width: 38.55vw;
+}
+.Main-System-Security-Main4 {
+  width: 66.66vw;
+  margin-bottom: 32px;
+}
+.Main-System-Security-Main4 p:nth-child(1) {
+  font-family: rubik;
+  font-size: 22px;
+  font-weight: bold;
+}
+.Main-System-Security-Main4 p:nth-child(2) {
+  font-family: rubik;
+  font-size: 23px;
+  width: 32.92vw;
+}
+.Main-System-Security-Main5 {
+  width: 66.66vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 108px;
+  margin-bottom: 100px;
+}
+.Main-System-Security-Main5 .Main5-first p:nth-child(1) {
+  font-family: rubik;
+  font-size: 22px;
+  font-weight: bold;
+}
+.Main5-first div {
+  display: flex;
+  justify-content: center;
+  gap: 26px;
+}
+.Main5-first div p {
+  width: 25.1vw;
+  font-family: rubik;
+  font-size: 22px;
+}
+.Main5-Image {
+  width: 32.92vw;
+}
+.Main-System-Security-Main6 {
+  margin-bottom: 129px;
+}
+.Main-System-Security-Main7 {
+  width: 66.66vw;
+  display: flex;
+  align-items: center;
+  margin-bottom: 39px;
+}
+.Main-System-Security-Main7 p {
+  width: 27.3vw;
+  font-family: rubik;
+  font-size: 33px;
+  font-weight: bold;
+}
+.Main-System-Security-Main8 {
+  width: 66.66vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 39px;
+}
+.Main-System-Security-Main8 .Main8-first {
+  width: 32.92vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Main8-first div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  height: 196px;
+  padding: 30.5px 77.5px 66.5px 77.5px;
+}
+.Main8-first div p:nth-child(1) {
+  font-family: rubik;
+  font-size: 22px;
+  font-weight: bold;
+}
+.Main8-first div p:nth-child(2) {
+  width: 24.85vw;
+  font-family: rubik;
+  font-size: 22px;
+}
+.Main8-Image {
+  width: 32.92vw;
+}
+.Main-System-Security-Main9{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #132E35;
+    padding-top: 50px;
+    padding-bottom: 56px;
+    margin-bottom: 56px;
+}
+.Sub-Main9 p:nth-child(1){
+    font-family: rubik;
+    font-size: 33px;
+    font-weight: bold;
+}
+.Sub-Main9 p:nth-child(2){
+    font-family: rubik;
+    font-size: 22px;
+}
+.Sub-Main9 p:nth-child(3){
+    font-family: rubik;
+    font-size: 22px;
+}
+.Main-System-Security-Main9 .Sub-Main9{
+    width: 66.66vw;
+}
+.Sub-Main9 p{
+    margin-bottom: 40px;
+}
+.Main-System-Security-Main10{
+    margin-bottom: 115px;
+}
+.Main-System-Security-Main11{
+    margin-bottom: 28px;
+}
+.Fourth-Main {
+  width: 68vw;
+  display: flex;
+  justify-content: space-between; /* Changed to space-between */
+  background-color: white;
+  color: black;
+  padding: 7vh;
+  border-radius: 20px;
+  box-sizing: border-box; /* Ensure padding is included in the total width/height */
+  margin-bottom: 74.9px;
+  /* margin-top: 20px; */
+  /* position: relative;
+        top: 10px; */
+}
+.Fourth-Main .Fourth-Main1 {
+  margin-right: 150px;
+}
+.Fourth-Main1 {
+  width: 37vw;
+  padding: 1rem; /* Add padding inside Fourth-Main1 if needed */
+}
+
+.Fourth-Main1 .content {
+  font-family: Raleway;
+  font-size: 35px;
+  font-weight: bolder;
+  width: 485px;
+}
+
+.Fourth-Main1 p:nth-child(1) {
+  font-family: "Source Code Pro";
+  font-size: 18px;
+  color: #69818d;
+  margin-bottom: 0;
+}
+.Fourth-Main2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 200px;
+}
+
+.Fourth-Main input {
+  width: 324px;
+  padding: 15px;
+  border-radius: 7px;
+  margin-bottom: 7px;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Fourth-Main button {
+  width: 324px;
+  padding: 15px;
+  background-color: #2c4a52;
+  color: white;
+  border-radius: 7px;
+}

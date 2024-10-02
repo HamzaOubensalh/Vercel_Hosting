@@ -24,10 +24,10 @@ const Header: React.FC = () => {
       setContent(
         <div className="services-content">
           <ul>
-            <li>Installation Electrique</li>
-            <li>Eclairage Interieur/Exterieur</li>
-            <li>Entretien et Reparation</li>
-            <li>Systeme de Securite</li>
+            <li><a href="/navbar/services/construction/eclairage_installation">Installation Electrique</a></li>
+            <li><a href="/navbar/services/construction/indoor_outdoor_lightning">Eclairage Interieur/Exterieur</a></li>
+            <li><a href="/navbar/services/construction/maintenance_and_repaire">Entretien et Reparation</a></li>
+            <li><a href="/navbar/services/construction/system_security">Systeme de Securite</a> </li>
           </ul>
         </div>
       );
@@ -36,10 +36,10 @@ const Header: React.FC = () => {
       setContent(
         <div className="services-content">
           <ul>
-            <li>Distribution d&apos;energy</li>
-            <li>Automation Indistriel</li>
-            <li>Securite et Surveillance</li>
-            <li>Services De Maintenance</li>
+            <li><a href="/navbar/services/industrial/energy_distribution">Distribution d&apos;energy</a> </li>
+            <li><a href="/navbar/services/industrial/industrial_automation">Automation Indistriel</a> </li>
+            <li><a href="/navbar/services/industrial/security_and_surveillance">Securite et Surveillance</a> </li>
+            <li><a href="/navbar/services/industrial/maintenance_services">Services De Maintenance</a> </li>
           </ul>
         </div>
       );
@@ -48,10 +48,10 @@ const Header: React.FC = () => {
       setContent(
         <div className="services-content">
           <ul>
-            <li>Pompage/Irrigation Automatique</li>
-            <li>Automatisation Des Serres Agricoles</li>
-            <li>Serres Connects</li>
-            <li>Control Des Parmetrer Agricole</li>
+            <li><a href="/navbar/services/agriculture/pompage_irrigation_automatic">Pompage/Irrigation Automatique</a> </li>
+            <li><a href="/navbar/services/agriculture/automatisation_serres_agricole">Automatisation Des Serres Agricoles</a> </li>
+            <li><a href="/navbar/services/agriculture/serres_connects">Serres Connects</a> </li>
+            <li><a href="/navbar/services/agriculture/control_parameter_agricole">Control Des Parmetrer Agricole</a> </li>
           </ul>
         </div>
       );
@@ -60,8 +60,8 @@ const Header: React.FC = () => {
       setContent(
         <div className="services-content">
           <ul>
-            <li>eaneer shield</li>
-            <li>eaneer solar</li>
+            <li><a href="">eaneer shield</a> </li>
+            <li><a href="">eaneer solar</a> </li>
           </ul>
         </div>
       )
