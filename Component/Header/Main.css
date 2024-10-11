@@ -11,7 +11,7 @@
     padding-top: 100px;
     display: flex;
     justify-content:center ;
-    margin-top: 60px;
+    margin-top: 68px;
 }
 .Title-Line p{
     font-family: Source Code Pro;
@@ -31,6 +31,7 @@
     font-family:Source Code Pro;
     font-size: 64px;
     font-weight: bold;
+    text-align: center;
 }
 .Board-Titles .Inter-font{
     font-family: Inter;
@@ -38,7 +39,11 @@
     color: #CCD0CF;
 }
 .Input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 40px;
+    width: 21.66vw;
 }
 .Input input{
     border: none;
@@ -50,6 +55,9 @@
     outline: none;
 }
 .Input .input-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     border-radius: 20px;
     box-shadow: 0 5px 20px 0 rgba(255, 255, 255, 0.8);}
@@ -58,10 +66,13 @@
     padding: 5px 5px;
 }
 .Phrase{
-    font-family: Source Code Pro ;
-    font-size: 18px;
     margin-bottom: 40px;
     align-items: center;
+}
+.Phrase p{
+    font-family: Source Code Pro ;
+    font-size: 18px;
+    color: #CCD0CF;
 }
 .Cards {
     width: 55vw;
@@ -236,16 +247,14 @@ html, body {
     flex-direction: column;
     justify-content: center;
     width: 22.7vw;
-    height: 10.04vh;
+    height: 100%;
 }
 .Second-Main-second .Second-Main-Title{
     margin: 0;
     text-align: left;
 }
-.Second-Main-second button{
-    border: #707070;
-    border-radius: 6px;
-}
+
+
 .Second-Main-Title p{
     font-family: Source Code Pro;
     font-size: 18px;
@@ -253,6 +262,8 @@ html, body {
     color: #CCD0CF;
 }
 .Second-Main-second .Second-Main-Paragraph{
+    display: flex;
+    justify-content: center;
     padding: 52px 0px 52px 0px;
 }
 .Second-Main-second .Second-Main-Paragraph p{
@@ -260,26 +271,27 @@ html, body {
     font-size: 28px;
     font-weight: bold;
     color: #FFFFFF;
+    text-align: center;
 }
 .Second-Main-second .footer p{
     font-family: Inter;
     font-size: 18px;
     font-weight: bold;
     color: #FFFFFF;
-
-
 }
 .Second-Main-second .Button{
-    display:flex ;
+    display:flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .Second-Main-second .Button button{
     display: flex;
     justify-content: center;
-    width: 15vw;
-    padding: 4px 85px;
+    align-items: center;
+    padding: 5px 76px 5px 82px;
     border-radius: 10px;
+    border: none #707070;
     font-family: Raleway;
     font-size: 14px;
     font-weight: bold;
@@ -322,10 +334,13 @@ hr{
     font-family: Source Code Pro;
     font-size: 18px;
     text-align: center;
+    color: #CCD0CF;
 } 
 .Third-Main-Titles h2{
     font-family: Libre Franklin;
-    font-size: 26px;
+    font-size: 28px;
+    width: 65vw;
+    text-align: center;
 }
 .Third-Main-Style{
     display: flex;
@@ -337,6 +352,7 @@ hr{
 }
 .Props{
     flex: 1;
+    width: 17.65vw;
 }
 .Props-Title{
     margin-bottom: 18px;
@@ -360,7 +376,7 @@ hr{
 }
 .Props-Content p{
     font-family: Inter;
-    font-size: 14px;
+    font-size: 18px;
     color: #FFFFFF;
 }
 .Board{
@@ -370,7 +386,7 @@ hr{
     justify-content: center;
     align-items: center;
     padding: 10px 80px;
-    box-shadow: 0 4px 8px #707070; 
+    box-shadow: 0px 0px 4px 4px rgba(112, 112, 112, 0.3);
     border-radius: 10px;
     margin-bottom: 44px;
 }
@@ -381,9 +397,11 @@ hr{
 .Board-Titles p:nth-child(1){
     font-family: Source Code Pro;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: bold;
     color: #CCD0CF;
+    margin-bottom: 0px;
 }
+
 .Board-Titles .Inter-font{
     font-family: Inter;
     font-size: 20px;
@@ -392,10 +410,13 @@ hr{
 .Inter-font{
     width: 42.1875vw;
 }
-.Board-Titles h3{
+.Board-Titles p:nth-child(2){
     margin-bottom: 11px;
+    font-family: Libre Franklin;
+    font-size: 28px;
+    font-weight: bold;
 }
-.Board-Titles p,h3{
+.Board-Titles p{
     text-align: center;
 }
 .Sub-Board1{
@@ -403,7 +424,7 @@ hr{
     padding: 2px 40px ;
     margin-bottom: 20px;
     color: white;
-    border-radius: 10px;
+    border-radius: 6px;
     margin: 0px 0px 44px 0px;
 }
 .Sub-Board1 .Board-Title{
@@ -423,6 +444,7 @@ hr{
     font-size: 22.5px;
     font-family: Libre Franklin;
     padding: 0 92px 0 92px;
+    text-align: center;
 }
 .Sub-Board1 .Board-Content{
     margin-bottom: 66px;
@@ -434,6 +456,7 @@ hr{
     font-size: 18px;
     color: #CCD0CF;
     padding: 0 92px 0 92px;
+    text-align: center;
 }
 .Sub-Board1 .Board-Button{
     display: flex;
@@ -447,6 +470,7 @@ hr{
     font-size: 14px;
     font-weight: bold;
     border: #707070;
+    color: #132E35;
 }
 .Sub-Board1 .Board-Title p{
     text-align: center;
@@ -456,65 +480,67 @@ hr{
     text-align: center;
     font-family: Source Code Pro;
     font-size: 18px;
+    font-weight: bold;
+    color: #CCD0CF;
 }
 .Fourth-Main {
     width: 68vw;
     display: flex;
     justify-content: space-between; /* Changed to space-between */
+    gap: 150px;
     background-color: white;
     color: black;
-    padding: 7vh; /* Ensure padding is applied */
+    padding: 67px 200px 106px 105px; /* Ensure padding is applied */
     border-radius: 20px;
     box-sizing: border-box; /* Ensure padding is included in the total width/height */
     margin-bottom: 33.9px;
 }
-.Fourth-Main .Fourth-Main1{
-    margin-right: 150px;
-    
-}
-.Fourth-Main1 {
-    width: 37vw;
-    padding: 1rem; /* Add padding inside Fourth-Main1 if needed */
+
+.Fourth-Main1 p:nth-child(1){
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: bold;
+    color: #69818D;
+    width: 11.09vw;
+    margin-bottom: 0px;
 }
 
 .Fourth-Main1 .content {
     font-family: Raleway;
     font-size: 35px;
-    font-weight: bolder;
-    width: 485px;
+    font-weight: bold;
+    margin-bottom: 0px;
 }
 
-.Fourth-Main1 p:nth-child(1) {
-    font-family: 'Source Code Pro';
-    font-size: 18px;
-    color: #69818D;
-    margin-bottom: 0;
-}
+
 .Fourth-Main2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 200px;
 }
 
 .Fourth-Main input {
     width: 324px;
-    padding: 15px;
+    padding: 19px 92px;
+    border: 1px solid #707070;
     border-radius: 7px;
     margin-bottom: 7px;
     text-align: center;
     font-family: Raleway;
     font-size: 18px;
     font-weight: bold;
+    height: 58px;
 }
 
 .Fourth-Main button {
     width: 324px;
-    padding: 15px;
+    padding: 19px 92px;
     background-color: #2C4A52;
     color: white;
+    border: 1px solid #707070;
     border-radius: 7px;
+    height: 58px;
 }
 @media (min-width:1366px) and (max-width:1920px) {
     .Second-Main-second{
