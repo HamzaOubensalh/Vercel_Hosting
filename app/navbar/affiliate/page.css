@@ -15,19 +15,22 @@
   align-items: center;
   margin-bottom: 66px;
 }
-.Affiliate-Title-Div p:nth-child(3) {
+.Affiliate-Title-Div p{
+  text-align: center;
+}
+.Affiliate-Title-Div p:nth-child(4) {
   font-family: Source Code Pro;
   font-size: 18px;
   font-weight: bold;
-  margin-top: 95px;
+  margin-top: 108px;
   color: #ccd0cf;
 }
-.Affiliate-Title-Div p:nth-child(4) {
+.Affiliate-Title-Div p:nth-child(5) {
   font-family: Libre Franklin;
   font-size: 54px;
-  font-weight: 400;
+  font-weight: 600;
 }
-.Affiliate-Title-Div p:nth-child(5) {
+.Affiliate-Title-Div p:nth-child(6) {
   font-family: Inter;
   font-size: 18px;
   color: #ccd0cf;
@@ -54,6 +57,7 @@
   width: 66.68vw;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .Sub-Affiliate-Content-Content {
   display: flex;
@@ -74,7 +78,7 @@
 .Sub-Affiliate-Content-Titles p:nth-child(2) {
   font-family: Libre Franklin;
   font-size: 64px;
-  font-weight: 400;
+  font-weight: bold;
 }
 .Sub-Affiliate-Content-Content .Content-Holder {
   width: 57.1vw;
@@ -88,11 +92,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border: 1px solid #ffffff;
   border-radius: 20px;
-  padding: 9px 23px 11px 24px;
+  padding-left: 24px;
+  padding-right: 24px;
   width: 16.87vw;
+  height: 113px;
+}
+.Content-Holder div p{
+  text-align: center;
 }
 .Content-Holder div p:nth-child(1) {
   font-family: Inter;
@@ -135,19 +143,20 @@
 .Affiliate-Content3-Titles p:nth-child(1) {
   font-family: Source Code Pro;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
+  color: #CCD0CF;
 }
 .Affiliate-Content3-Titles p:nth-child(2) {
   font-family: Libre Franklin;
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 600;
 }
 .Affiliate-Content3-Content .Content3-Holder {
-  width: 57.1vw;
+  width: 66.66vw;
   display: flex;
   justify-content: center;
   align-items: stretch;
-  gap: 43px;
+  gap: 96px;
   margin-bottom: 84px;
 }
 .Content3-Holder div {
@@ -155,19 +164,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #2c4a52;
-  border-radius: 20px;
-  padding: 15px 13px 30px 19px;
-  width: 17.55vw;
-  gap: 21px;
+  width: 12.65vw;
+}
+.Content3-Holder div .logo{
+  margin-bottom: 40.4px;
 }
 .Content3-Holder div p:nth-child(1) {
   font-family: Inter;
   font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 18px;
+  text-align: center;
 }
 .Content3-Holder div p:nth-child(2) {
   font-family: Inter;
   font-size: 14px;
+  text-align: center;
 }
 
 .Affiliate-Content3-Content .Content3-Holder2 {

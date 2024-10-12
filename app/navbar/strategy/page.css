@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 .Main-Strategy{
     width: 100%;
     display: flex;
@@ -13,12 +15,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
 }
-.Main-Strategy-Titles p:nth-child(2){
-    margin-bottom: 29px;
+
+.Main-Strategy-Titles p{
+    text-align: center;
 }
+
 .Main-Strategy-Titles p:nth-child(3){
+    margin-top: 113px;
     font-family: Source Code Pro;
     font-size: 18px;
     color: #CCD0CF;
@@ -27,15 +31,13 @@
 .Main-Strategy-Titles p:nth-child(4){
     font-family: Libre Franklin;
     font-size: 28px;
-    font-weight: 300;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 .Main-Strategy-Titles p:nth-child(5){
     font-family: Inter;
-    font-size: 17px;
-}
-.Main-Strategy-Content{
-    margin-bottom: 126px;
+    font-size: 18px;
+    font-weight: 300;
 }
 .Main-Strategy-Content .Image-Strategy{
     width: 100%;
@@ -64,7 +66,7 @@
 .Content2-Titles p:nth-child(2){
     font-family: Inter;
     font-size: 28px;
-    font-weight: 300;
+    font-weight: 600;
 }
 .Main-Strategy-Content2 .Content2-Content{
     width: 50.625vw;
@@ -86,6 +88,20 @@
     padding: 12px 11px 32px 12px;
     border-radius: 20px;
     width: 24.68vw;
+}
+.Content1 div p{
+    text-align: center;
+}
+.Content1 div p:nth-child(1){
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: 600;
+    color: #CCD0CF;
+}
+.Content1 div p:nth-child(2){
+    font-family: Inter;
+    font-size: 14px;
+    color: #FFFFFF;
 }
 .Content2{
     display: flex;
@@ -116,16 +132,29 @@
 }
 .Content2 .Content2-Content p{
     font-family: Inter;
-    font-size: 26px;
-    font-weight: 300;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
 }
 .Content2 .Content2-Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 32px;
 }
+.Content2-Footer hr{
+    width: 21.66vw;
+    height: 4px;
+    background-color: #FFFFFF;
+    border: none;
+}
 .Content2-Footer p{
+    width: 23.28vw;
     font-family: Inter;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 600;
+    text-align: center;
 }
 .Content2 .Content2-Button{
     display: flex;
@@ -136,6 +165,10 @@
     padding: 5px 85px;
     background-color: #FFFFFF;
     border-radius: 10px;
+    color: #132E35;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
 }
 .Main-Strategy-Content3{
     display: flex;
@@ -145,7 +178,7 @@
     background-color: white;
     width: 100%;
     color: black;
-    margin-bottom: 107px;
+    margin-bottom: 39px;
 }
 .Main-Strategy-Content3 .Content3-Holder{
     width: 42.91vw;
@@ -162,14 +195,14 @@
     margin-top: 21px;
 }
 .First-Holder p{
-    font-family: Libre Franklin;
+    font-family: Rubik;
     font-size: 36px;
-    font-weight: 300;
+    font-weight: bold;
 }
 .Content3-Holder .Second-Holder{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 43px;
 }
 .Second-Holder div{
@@ -177,13 +210,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 21px;
+    gap: 40px;
     border: 1px solid #707070;
     border-radius: 20px;
     background-color: #2C4A52;
     color: #FFFFFF;
-    padding: 15px 13px 20px 19px;
-    width: 17.55vw;
+    padding: 50px 16px;
+    width: 21.66vw;
+}
+.Second-Holder div p:nth-child(1){
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: bolder;
+    width: 12.08vw;
+    text-align: center;
+}
+.Second-Holder div p:nth-child(2){
+    font-family: Inter;
+    font-size: 14px;
+    text-align: center;
+    width: 20vw;
 }
 .Content3-Holder .Third-Holder{
     display: flex;
@@ -193,7 +239,24 @@
     margin-bottom: 64px;
 }
 .Third-Holder p{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 400;
     margin-bottom: 0;
+    text-align: center;
+}
+.Main-Strategy-Content4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 63.4px;
+}
+.logo-eaneer{
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 39px;
 }
 .Fourth-Main {
     width: 68vw;

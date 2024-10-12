@@ -29,7 +29,7 @@
   margin-bottom: 114px;
 }
 .Second-About-Us p:nth-child(5) {
-  margin-top: 60px;
+  margin-top: 100px;
   font-family: Source Code Pro;
   font-size: 14px;
   font-weight: bold;
@@ -48,13 +48,13 @@
 }
 .Second-About-Us p:nth-child(8) {
   font-family: Source Code Pro;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
   color: #ccd0cf;
-  text-align: center;
 }
 .Second-About-Us p {
   margin-bottom: 17px;
+  text-align: center;
 }
 .Main-About-Us .Image-About-Us {
   height: 562px;
@@ -74,9 +74,16 @@
 .Vision-Div .first-div {
   width: 33vw;
 }
-.first-div p:nth-child(2) {
+.first-div .item1{
+  font-family: Source Code Pro;
+  font-size: 18px;
+  font-weight: bold;
+  color: #CCD0CF;
+}
+.first-div .item2{
   font-family: Inter;
   font-size: 56px;
+  font-weight: bold;
 }
 .text-div > p {
   font-family: Libre Franklin;
@@ -104,9 +111,16 @@
   justify-content: center;
   align-items: center;
 }
+.second-Mission-First p:nth-child(1){
+  font-family: Source Code Pro;
+  font-size: 18px;
+  font-weight: bold;
+  color: #CCD0CF;
+}
 .second-Mission-First p:nth-child(2) {
   font-family: Libre Franklin;
   font-size: 56px;
+  font-weight: bold;
 }
 .second-Mission-First {
   display: flex;
@@ -164,11 +178,16 @@
 .Button-button {
   margin-top: 48px;
   margin-bottom: 171px;
+  border: 1px solid #989898;
 }
 .Button-Div .Button-button {
   background-color: white;
   padding: 18px 71px 19px 55px;
   border-radius: 10px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  color: #2C4A52;
 }
 .Holder-Div-2 {
   width: 66.67vw;

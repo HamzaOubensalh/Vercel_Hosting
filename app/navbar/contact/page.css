@@ -31,12 +31,15 @@ body{
     align-items: center;
     margin-bottom: 102px;
 }
+.First-Holder p{
+    text-align: center;
+}
 .First-Holder p:nth-child(1){
     font-family: Source Code Pro;
     font-size: 18px;
     font-weight: bold;
     color: #CCD0CF;
-    margin-top: -15px;
+    margin-top: 40px;
 }
 .First-Holder p:nth-child(2){
     font-family: Libre Franklin;
@@ -80,6 +83,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 0px;
+    position: relative;
+    bottom: 10px;
+}
+.First-Info-Content p:nth-child(1),.Second-Info-Content p:nth-child(1),.Third-Info-Content p:nth-child(1){
+    margin-bottom: 0px;
 }
 .First-Content-Info-Contact p{
     margin: 5px;
@@ -119,6 +128,17 @@ body{
 .Form input{
     border: none;
     border-bottom: 1px solid #707070;
+    margin-bottom: 25px;
+    width: 16.04vw;
+}
+.Form input:nth-child(1){
+    margin-top: 54px;
+}
+.Form textarea{
+    border: none;
+    border-bottom: 1px solid #707070;
+    width: 16.04vw;
+    height: 100px;
 }
 .Second-Content-Title{
     width: 100%;
@@ -144,10 +164,7 @@ body{
     background-color: #132E35;
     color: white;
 }
-.Form input{
-    margin-bottom: 25px;
-    width: 16.04vw;
-}
+
 .Form input:focus{
     border: white;
 }

@@ -7,19 +7,21 @@
     align-items: center;
 }
 .Main-Career-Titles{
-    width: 38.4375vw;
+    width: 41.875vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 92px;
-    margin-top: 29px;
+}
+.Main-Career-Titles p{
+    text-align: center;
 }
 .Main-Career-Titles p:nth-child(3){
     font-family: Source Code Pro;
     font-size: 18px;
     color: #CCD0CF;
-    margin-top: 60px;
+    margin-top: 108px;
     margin-bottom: 15px;
 }
 .Main-Career-Titles p:nth-child(4){
@@ -31,10 +33,11 @@
 }
 .Main-Career-Titles p:nth-child(5){
     font-family: Inter;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #FFFFFF;
     margin-top: 15px;
+    width: 100%;
 }
 .Main-Career-Main1{
     width: 100%;
@@ -54,7 +57,7 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin-bottom: 71px;
+    margin-bottom: 48px;
 }
 .Main-Career-Main3 p:nth-child(1){
     font-family: Inter;
@@ -63,8 +66,9 @@
 }
 .Main-Career-Main3 p:nth-child(2){
     font-family: Raleway;
-    font-size: 16px;
-    font-weight: bolder;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
 }
 .Main-Career-Main-Holder{
     width: 100%;
@@ -82,7 +86,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 232px;
+    gap: 324px;
 }
 .Main-Career-Main4 .First-Div{
     display: flex;
@@ -92,21 +96,25 @@
 .Main-Career-Main4 .First-Div-Titles p:nth-child(1){
     font-family: Source Code Pro;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
+    color: #CCD0CF;
+    margin-bottom: 0px;
 }
 .Main-Career-Main4 .First-Div-Titles p:nth-child(2){
     font-family: Inter;
     font-size: 30px;
     font-weight: bold;
+    margin-top: 0px;
 }
 .First-Div .First-Div-Content p{
     font-family: Inter;
     font-size: 24px;
+    width: 22.5vw;
 }
 .Main-Career-Main5{
     width: 66.66vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 232px;
     margin-bottom: 73px;
@@ -114,18 +122,21 @@
 .Main-Career-Main5 .Second-Title p:nth-child(1){
     font-family: Source Code Pro;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     color: #CCD0CF;
+    margin-bottom: 0px;
 }
 .Main-Career-Main5 .Second-Title p:nth-child(2){
     font-family: Inter;
     font-size: 30px;
     font-weight: bold;
+    margin-top: 0px;
 }
 .Main-Career-Main5 .Second-Content p{
     font-family: Inter;
     font-size: 24px;
     color: #FFFFFF;
+    width: 25.26vw;
 }
 .Main-Career-Main6{
     margin-bottom: 61.4px;
@@ -139,25 +150,30 @@
 .Main-Career-Main7 p:nth-child(1){
     font-family: Source Code Pro;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     color: #CCD0CF;
+    text-align: center;
+    margin-bottom: 0px;
 }
 .Main-Career-Main7 p:nth-child(2){
     font-family: Libre Franklin;
     font-size: 64px;
-    font-weight: 200;
+    font-weight: 600;
     color: #FFFFFF;
+    text-align: center;
+    margin-top: 0px;
 }
 .Main-Career-Main8{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 56.25vw;
-    margin-bottom: 93.4px;
+    margin-bottom: 61.4px;
 }
 .Main-Career-Main8 p{
     font-family: Inter;
-    font-size: 22px;
+    font-size: 24px;
+    text-align: center;
 }
 .Main-Career-Main9{
     margin-bottom: 61px;
@@ -197,33 +213,37 @@
     margin-bottom: 61px;
 }
 .Main-Career-Main13{
-    width: 36.14vw;
+    width: 38.85vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 69px;
 }
 .Main-Career-Main13 p:nth-child(1){
     font-family: Source Code Pro;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     color: #CCD0CF;
+    margin-bottom: 0px;
 }
 .Main-Career-Main13 p:nth-child(2){
     font-family: Libre Franklin;
-    font-size: 62px;
-    font-weight: 400;
+    font-size: 64px;
+    font-weight: 600;
     color: #FFFFFF;
+    margin-top: 0px;
 }
 .Main-Career-Main14{
     width: 66.66vw;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 15px;
+    align-items: stretch;
+    gap: 16px;
     margin-bottom: 34px;
 }
 .Main-Career-Main14 .Main14-Div{
+    width: 21.66vw;
     border-bottom: 2px solid #FFFFFF;
 }
 .Main-Career-Main14 .Main14-Title p{
@@ -233,25 +253,30 @@
 }
 .Main-Career-Main14 .Main14-Content{
     margin-bottom: 74px;
+    width: 21vw;
 }
 .Main-Career-Main14 .Main14-Content p{
     font-family: Libre Franklin;
-    font-size: 20px;
+    font-size: 22px;
 }
 .Main-Career-Main15{
     width: 66.66vw;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 15px;
-    margin-bottom: 130.4px;
+    align-items: stretch;
+    gap: 16px;
+    margin-bottom: 133.4px;
+}
+.Main-Career-Main15 .Main15-Div{
+    width: 21.66vw;
 }
 .Main-Career-Main15 .Main15-Title p{
-    font-family: Rubik,sans-serif;
+    font-family: Rubik;
     font-size: 28px;
     font-weight: bold;
 }
 .Main-Career-Main15 .Main15-Content{
+    width: 21vw;
     margin-bottom: 74px;
 }
 .Main-Career-Main15 .Main15-Content p{
@@ -274,18 +299,21 @@
 .Main-Career-Main17 p:nth-child(1){
     font-family: Source Code Pro;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 0px;
+    color: #CCD0CF;
 }
 .Main-Career-Main17 p:nth-child(2){
     font-family: Rubik,sans-serif;
     font-size: 55px;
-    font-weight: 400;
+    font-weight: 600;
+    margin-top: 0px;
     margin-bottom: 17px;
 }
 .Main-Career-Main17 p:nth-child(3){
     font-family: Inter;
-    font-size: 21px;
+    font-size: 22px;
+    width: 55.41vw;
 }
 .Main-Career-Main18{
     display: flex;
@@ -297,17 +325,17 @@
 .Main-Career-Main18 a{
     text-decoration: none;
     color: #FFFFFF;
-    font-family: Rubik,sans-serif;
+    font-family: Rubik;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
 }
 .Main-Career-Main18 button{
     padding: 12px 62px 15px 58px;
     border-radius: 20px;
     border: #707070;
-    font-family: Rubik,sans-serif;
+    font-family: Rubik;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     color: #FFFFFF;
     background-color: #132E35;
 }

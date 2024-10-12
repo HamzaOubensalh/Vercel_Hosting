@@ -12,6 +12,7 @@ const Affiliate = () => {
       <div className="Affiliate-Title-Div">
         <p></p>
         <p></p>
+        <p></p>
         <p>Affiliate</p>
         <p>Join eaneer's Affiliate Program</p>
         <p>
@@ -74,22 +75,65 @@ const Affiliate = () => {
       </div>
       <div className="Affiliate-Content3-Div">
         <div className="Affiliate-Content3-Titles">
-          <p>Be Our Partner</p>
-          <p>Why Partner With Eaneer:</p>
+          <p>Be Our Markter</p>
+          <p>Affiliate Program Benefits:</p>
         </div>
         <div className="Affiliate-Content3-Content">
           <div className="Content3-Holder">
             <div>
-              <p>High Commissions: </p>
-              <p>Earn competitive commissions on every sale you generate.</p>
+              <Image
+                className="logo"
+                src={component23}
+                height={37.6}
+                width={33.83}
+                alt="company-logo"
+              ></Image>
+              <div>
+                <p>High Commissions: </p>
+                <p>Earn competitive commissions on every sale you generate.</p>
+              </div>
             </div>
             <div>
-              <p>High Commissions: </p>
-              <p>Earn competitive commissions on every sale you generate.</p>
+              <Image
+                className="logo"
+                src={component23}
+                height={37.6}
+                width={33.83}
+                alt="company-logo"
+              ></Image>
+
+              <div>
+                <p>High Commissions: </p>
+                <p>Earn competitive commissions on every sale you generate.</p>
+              </div>
             </div>
             <div>
-              <p>High Commissions: </p>
-              <p>Earn competitive commissions on every sale you generate.</p>
+              <Image
+                className="logo"
+                src={component23}
+                height={37.6}
+                width={33.83}
+                alt="company-logo"
+              ></Image>
+
+              <div>
+                <p>High Commissions: </p>
+                <p>Earn competitive commissions on every sale you generate.</p>
+              </div>
+            </div>
+            <div>
+              <Image
+                className="logo"
+                src={component23}
+                height={37.6}
+                width={33.83}
+                alt="company-logo"
+              ></Image>
+
+              <div>
+                <p>High Commissions: </p>
+                <p>Earn competitive commissions on every sale you generate.</p>
+              </div>
             </div>
           </div>
           <div className="Content3-Holder2">

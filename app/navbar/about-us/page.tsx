@@ -29,8 +29,8 @@ const AboutUs = () => {
           </div>
           <div className='Vision-Div'>
             <div className='first-div'>
-              <p>Our Vision</p>
-              <p>A Future Powered By Electrical Innovation</p>
+              <p className='item1'>Our Vision</p>
+              <p className='item2'>A Future Powered By Electrical Innovation</p>
               <div className='text-div'>
                 <p>At eaneer, we envision a future where innovation and sustainability drive electrical engineering. </p>
                 <p>We're dedicated to leveraging cutting-edge technologies in industrial, agricultural, and construction sectors to optimize energy consumption.</p>

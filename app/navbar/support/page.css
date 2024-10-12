@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 .Main-Support{
     width: 100%;
     display: flex;
@@ -7,16 +8,18 @@
     align-items: center;
 }
 .Main-Support .Main-Support-Titles{
-    width: 60.72vw;
+    width: 66.66vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 75px;
-    margin-top: 29px;
+}
+.Main-Support-Titles p{
+    text-align: center;
 }
 .Main-Support-Titles p:nth-child(3){
-    margin-top: 60px;
+    margin-top: 108px;
     font-family: Source Code Pro;
     font-size: 18px;
     color: #CCD0CF;
@@ -26,14 +29,16 @@
     font-family: Libre Franklin;
     font-size: 28px;
     color: #FFFFFF;
+    font-weight: bold;
     margin-top: 15px;
 }
 .Main-Support-Titles p:nth-child(5){
     font-family: Inter;
     font-size: 18px;
     color: #FFFFFF;
-    font-weight: 300;
+    font-weight: 600;
     margin-top: 15px;
+    width: 100%;
 }
 .Main-Support-Para1{
     width: 55.41vw;
@@ -41,7 +46,7 @@
     padding: 22px 92px 35px 92px;
     font-family: Libre Franklin;
     font-size: 28px;
-    font-weight: 300;
+    font-weight: 600;
     border-radius: 20px;
     margin-bottom: 63px;
 }
@@ -60,12 +65,14 @@
     font-size: 18px;
     font-weight: 400;
     color: #CCD0CF;
+    margin-bottom: 0px;
 }
 .Para2-Titles p:nth-child(2){
-    font-family: Rubik,sans-serif;
+    font-family: Rubik;
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 600;
     color: #FFFFFF;
+    margin-top: 0px;
 }
 .Main-Support-Para2 .Para2-Divs{
     display: flex;
@@ -85,20 +92,27 @@
     padding: 20px 54px 54px 54px;
 }
 .Para2-Divs .p-Title{
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
     background-color: #FFFFFF;
     border-radius: 10px;
     margin-bottom: 50px;
     padding: 5px 35px 6px 12px;
+    text-align: center;
+    color: #132E35;
 }
 .Para2-Divs > div div:nth-child(1) p{
     color: #132E35;
 }
 .Para2-Divs > div div:nth-child(2){
     margin-bottom: 48px;
+    
 }
 .Para2-Divs > div div:nth-child(2) p{
-    font-family: Rubik ,sans-serif;
+    font-family: Rubik;
     font-size: 18px;
+    text-align: center;
 }
 .Para2-Divs > div div:nth-child(3) p{
     font-family: Libre Franklin;
@@ -121,17 +135,20 @@
 .Main-Support-Main3 .Div1-First p:nth-child(1){
     font-family: Source Code Pro;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
+    color: #CCD0CF;
+    margin-bottom: 0px;
 }
 .Main-Support-Main3 .Div1-First p:nth-child(2){
     font-family: Libre Franklin;
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 600;
+    margin-top: 0px;
 }
 .Main-Support-Main3 .Div1-Second p{
-    font-family: Rubik,sans-serif;
+    font-family: Rubik;
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 500;
     color: #CCD0CF;
 }
 .Main-Support-Main3 .Div2-Form{
@@ -141,7 +158,7 @@
 }
 .Main-Support-Main3 .Main3-Div2 input{
     margin-bottom: 41px;
-    width: 14.94vw;
+    width: 15.67vw;
     background-color: transparent;
     border: #707070;
     border-radius: 10px;
@@ -179,14 +196,16 @@
 .Main-Support-Main4 p:nth-child(1){
     font-family: Source Code Pro;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     color: #CCD0CF;
+    margin-bottom: 0px;
 }
 .Main-Support-Main4 p:nth-child(2){
     font-family: Libre Franklin;
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 600;
     color: #FFFFFF;
+    margin-top: 0px;
 }
 .Main-Support-Main5{
     width: 50.625vw;
@@ -199,9 +218,10 @@
     margin-bottom: 105px;
 }
 .Main-Support-Main5 p{
-    font-family: Raleway;
+    font-family: Rubik;
     font-size: 28px;
-    font-weight: 400;
+    font-weight: bold;
+    color: #CCD0CF;
 }
 .Fourth-Main {
     width: 68vw;
