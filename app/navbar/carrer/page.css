@@ -226,6 +226,7 @@
     font-weight: 600;
     color: #CCD0CF;
     margin-bottom: 0px;
+    text-align: center;
 }
 .Main-Career-Main13 p:nth-child(2){
     font-family: Libre Franklin;
@@ -233,6 +234,7 @@
     font-weight: 600;
     color: #FFFFFF;
     margin-top: 0px;
+    text-align: center;
 }
 .Main-Career-Main14{
     width: 66.66vw;

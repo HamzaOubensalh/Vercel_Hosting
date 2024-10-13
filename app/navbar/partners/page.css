@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 .Main-Partners{
     width: 100%;
     display: flex;
@@ -13,24 +15,27 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 67px;
-    margin-top: 68px;
+}
+.Main-Partners-Titles p{
+    text-align: center;
 }
 .Main-Partners-Titles p:nth-child(3){
     font-family: Source Code Pro;
     font-size: 18px;
     color: #CCD0CF;
-    margin-top: 48px;
-    margin-bottom: 15pxpx;
+    margin-top: 108px;
+    margin-bottom: 15px;
 }
 .Main-Partners-Titles p:nth-child(4){
     font-family: Libre Franklin;
     font-size: 28px;
-    font-weight: 400;
-    margin-bottom: 15px;
+    font-weight: 600;
+    margin-bottom: 32px;
 }
 .Main-Partners-Titles p:nth-child(5){
     font-family: Inter;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 300;
 }
 .Main-Partners-Content{
     margin-bottom: 163px;
@@ -56,14 +61,15 @@
 .Content2-Titles p:nth-child(1){
     font-family: Source Code Pro;
     font-size: 18px;
-    font-weight: bolder;
+    font-weight: 600;
     color: #CCD0CF;
     margin-bottom: 28px;
+    text-align: center;
 }
 .Content2-Titles p:nth-child(2){
     font-family: Libre Franklin;
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 600;
     color: #FFFFFF;
 }
 .Main-Partners-Content2 .Content2-Cards{
@@ -75,6 +81,7 @@
     margin-bottom: 96px;
 }
 .Content2-Cards div {
+    background-color: #11212D;
     width: 17.55vw;
     display: flex;
     flex-direction: column;
@@ -84,8 +91,20 @@
     /* border: 1px solid #FFFFFF; */
     border-radius: 20px;
     box-sizing: border-box;
-    padding: 15px 16px 18px 16px;
-    box-shadow: 0 4px 6px rgba(233, 223, 223, 0.435); /* Lighter shadow */
+    padding: 16px 16px 10px 16px;
+    box-shadow: 0 0 40px 3px rgba(233, 223, 223, 0.2); /* Thinner shadow in corners */
+}
+.Content2-Cards div p:nth-child(1){
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.Content2-Cards div p:nth-child(2){
+    font-family: Inter;
+    font-size: 14px;
+    text-align: center;
+    width: 15.88vw;
 }
 .Main-Partners-Content3{
     width: 100%;
@@ -93,7 +112,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #132E35;
     color: black;
     margin-bottom: 85px;
 }
@@ -106,9 +125,11 @@
     margin-top: 21px;
 }
 .Main-Partners-Content3-Title p{
-    font-family: Libre Franklin;
+    font-family: Inter;
     font-size: 36px;
-    font-weight: 300;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
 }
 .Main-Partners-Content3 .Main-Partners-Content3-Content{
     width: 57.1vw;
@@ -124,9 +145,13 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    background-color: #2C4A52;
+    background: linear-gradient(to bottom, #2C4A52 30%, #122e38 90%);
     color: #FFFFFF;
     padding: 15px 13px 17px 19px;
+    width: 17.55vw;
+}
+.Main-Partners-Content3-Content div p{
+    text-align: center;
 }
 .Main-Partners-Content3-Footer{
     width: 45.83vw;
@@ -137,10 +162,12 @@
     margin-bottom: 44px;
 }
 .Main-Partners-Content3-Footer p{
-    font-family: Source Code Pro;
+    text-align: center;
+    font-family: Rubik;
     font-size: 18px;
-    font-weight: bold;
     margin-bottom: 0px;
+    color: #CCD0CF;
+    font-weight: 400;
 }
 /*This Is The Start*/
 .Creative_Element{
@@ -149,7 +176,7 @@
     margin-bottom: 101px;
 }
 #menu{
-    width: 57.19vw;
+    width: 66.98vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,6 +199,90 @@
     border-radius: 10px;
 }
 /*The Cloned Content*/
+.services-content-partner{
+    width: 66.98vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 65px;
+}
+.services-content-partner .item1{
+    width: 21.83vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 65px;
+    gap: 65px;
+}
+.item1 p{
+    text-align: center;
+}
+.item1 p:nth-child(1){
+    font-family: Rubik;
+    font-size: 64px;
+    font-weight: 600;
+}
+.item1 p:nth-child(2){
+    font-family: Source Code Pro;
+    font-size: 18px;
+    font-weight: 600;
+    color: #CCD0CF;
+}
+.item1 p:nth-child(3){
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 600;
+}
+.services-content-partner .item2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.item2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 50%;
+    box-sizing: border-box;
+    width: 21.83vw;
+    border: 1px none #707070;
+    border-radius: 20px;
+    padding: 67px 42px 55px 42px;
+}
+.item2 div p{
+    text-align: center;
+}
+.item2 div p:nth-child(1){
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: bold;
+}
+.item2 div p:nth-child(2){
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 300;
+}
+.item2 div:nth-child(2) p{
+    font-family: Inter;
+    font-size: 50px;
+    color: #06141B;
+}
+.item2 div:nth-child(1){
+    background-color: #2C4A52;
+}
+.item2 div:nth-child(2){
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+.item2 div:nth-child(3){
+    background-color: #132E35;
+}
+.item2 div:nth-child(4){
+    background-color: #69818D;
+}
 .services-content-1{
     width: 66.98vw;
     display: flex;

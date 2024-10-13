@@ -17,22 +17,25 @@
   margin-bottom: 57px;
   width: 53.75vw;
 }
+.Main-Sustainability-Titles p{
+  text-align: center;
+}
 .Main-Sustainability-Titles p:nth-child(4) {
   font-family: Source Code Pro;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 600;
   color: #ccd0cf;
 }
 .Main-Sustainability-Titles p:nth-child(5) {
   font-family: Inter;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 600;
   width: 30vw;
 }
 .Main-Sustainability-Titles p:nth-child(6) {
   font-family: Source Code Pro;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
   color: #ccd0cf;
 }
 .Main-Sustainability-Main1 {
@@ -45,19 +48,19 @@
   margin-bottom: 83px;
 }
 .Main-Sustainability-Main3 {
-  width: 66.66vw;
+  width: 55.416vw;
   margin-bottom: 127px;
 }
 .Main-Sustainability-Main3 p:nth-child(1) {
   font-family: Rubik;
   font-size: 55px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .Main-Sustainability-Main3 p:nth-child(2) {
   width: 44.17vw;
   font-family: Inter;
   font-size: 23px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .Main-Sustainability-Main4 {
   width: 66.66vw;
@@ -69,17 +72,17 @@
 }
 .Main-Sustainability-Main4 .Item1 {
   width: 16.9vw;
-  height: 471px;
+  height: 100%px;
 }
 .Item1 p:nth-child(1) {
   font-family: Rubik;
   font-size: 35px;
+  font-weight: 500;
   margin-bottom: 0px;
 }
 .Item1 p:nth-child(2) {
   font-family: Rubik;
   font-size: 21px;
-  font-weight: 100;
 }
 .Main-Sustainability-Main5 {
   width: 100%;
@@ -89,7 +92,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 43px;
-  padding-bottom: 60px;
+  padding-bottom: 35px;
   margin-bottom: 85px;
 }
 .Main-Sustainability-Main5 .Sub1 {
@@ -98,8 +101,8 @@
 }
 .Sub1 p {
   font-family: Rubik;
-  font-size: 55px;
-  font-weight: bold;
+  font-size: 60px;
+  font-weight: bolder;
 }
 .Main-Sustainability-Main5 .Sub2 {
   width: 55.42vw;
@@ -109,7 +112,6 @@
 .Sub2 p {
   font-family: Rubik;
   font-size: 22px;
-  font-weight: 100;
 }
 .Main-Sustainability-Main5 .Sub3 {
   width: 55.42vw;
@@ -119,7 +121,6 @@
 .Sub3 p {
   font-family: Rubik;
   font-size: 22px;
-  font-weight: 100;
 }
 .Main-Sustainability-Main5 .Sub4 {
   width: 55.42vw;
@@ -128,7 +129,6 @@
 .Sub4 p {
   font-family: Rubik;
   font-size: 22px;
-  font-weight: 100;
 }
 .Main-Substainability-Main6 {
   width: 66.66vw;
@@ -144,7 +144,7 @@
 }
 .Main-Substainability-Main6 p:nth-child(2) {
   font-family: Rubik;
-  font-size: 50px;
+  font-size: 55px;
   font-weight: bold;
   margin-bottom: 51px;
 }

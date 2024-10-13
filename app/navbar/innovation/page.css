@@ -20,7 +20,7 @@
 .Main-Innovation-Titles p:nth-child(3) {
   font-family: Source Code Pro;
   font-size: 14px;
-  font-weight: bolder;
+  font-weight: 600;
   color: #ccd0cf;
   margin-top: 100px;
   margin-bottom: 3px;
@@ -28,13 +28,13 @@
 .Main-Innovation-Titles p:nth-child(4) {
   font-family: Inter;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 .Main-Innovation-Titles p:nth-child(5) {
   font-family: Source Code Pro;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
   color: #ccd0cf;
 }
 .Main-Innovation-Main1 {
@@ -59,7 +59,7 @@
 }
 .Main-Innovation-Main3-Title p {
   font-family: Rubik;
-  font-size: 53px;
+  font-size: 55px;
   font-weight: bold;
 }
 .Main-Innovation-Main3-Content {
@@ -80,11 +80,11 @@
 .Item p:nth-child(1) {
   font-family: Rubik;
   font-size: 33px;
+  font-weight: 500;
 }
 .Item p:nth-child(2) {
   font-family: Rubik;
   font-size: 22px;
-  font-weight: 300;
 }
 .Main-Innovation-Main3-Content .icon {
   margin-top: 97px;
@@ -100,7 +100,9 @@
 .Main-Innovation-Main4 p {
   font-family: Rubik;
   font-size: 22px;
-  font-weight: bolder;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
 }
 .Fourth-Main {
   width: 68vw;

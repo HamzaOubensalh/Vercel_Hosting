@@ -16,6 +16,9 @@
   margin-top: 130px;
   margin-bottom: 112px;
 }
+.Main-Technology-Title p{
+  text-align: center;
+}
 .Main-Technology-Title p:nth-child(4) {
   font-family: Source Code Pro;
   font-size: 14px;
@@ -90,11 +93,14 @@
   gap: 16px;
   margin-bottom: 180px;
 }
+.Main-Technology-Main5 .technology{
+  height: 100%;
+}
 .Main-Technology-Main5 .Item1 {
-  height: 1227px;
+  height: 100%;
 }
 .Item1 div {
-  padding: 17px 129px 40px 92px;
+  padding: 20px 108px 43px 92px;
 }
 .Item1 div:nth-child(1),
 .Item1 div:nth-child(4) {
@@ -102,7 +108,7 @@
   border-radius: 20px;
 }
 .Item1 div:nth-child(3) {
-  margin-bottom: 92px;
+  margin-bottom: 101px;
 }
 .Item1 div p:nth-child(1) {
   font-family: Rubik;
