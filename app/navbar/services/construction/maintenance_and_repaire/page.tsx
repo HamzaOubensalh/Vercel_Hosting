@@ -8,6 +8,11 @@ import {
   mask_group_35,
   mask_group_36,
   mask_group_37,
+  mask_group_57,
+  mask_group_58,
+  mask_group_59,
+  mask_group_60,
+  mask_group_61,
 } from "@/Assets/Assets";
 import "./page.css";
 
@@ -199,7 +204,7 @@ const SystemSecurity = () => {
         </div>
         <Image
           className="Main5-Image"
-          src={mask_group_33}
+          src={mask_group_60}
           height={285}
           alt="image-2"
         ></Image>
@@ -207,7 +212,7 @@ const SystemSecurity = () => {
       <div className="Main-System-Security-Main5">
         <Image
           className="Main5-Image"
-          src={mask_group_34}
+          src={mask_group_57}
           height={285}
           alt="image-2"
         ></Image>
@@ -269,7 +274,7 @@ const SystemSecurity = () => {
         </div>
         <Image
           className="Main5-Image"
-          src={mask_group_35}
+          src={mask_group_58}
           height={285}
           alt="image-2"
         ></Image>
@@ -277,7 +282,7 @@ const SystemSecurity = () => {
       <div className="Main-System-Security-Main5">
         <Image
           className="Main5-Image"
-          src={mask_group_36}
+          src={mask_group_59}
           height={285}
           alt="image-2"
         ></Image>
@@ -352,7 +357,7 @@ const SystemSecurity = () => {
           </div>
           
         </div>
-        <Image className="Main8-Image" src={mask_group_37} height={815} alt="image-3"></Image>
+        <Image className="Main8-Image" src={mask_group_61} height={815} alt="image-3"></Image>
         <div className="Main8-second"></div>
       </div>
       <div className="Fourth-Main">

@@ -151,28 +151,13 @@ const SystemSecurity = () => {
       </div>
       <div className="Main-System-Security-Main3">
         <div className="Sub-Main3">
-          <p>Secure Your Property with eaneer’s Security Systems</p>
+          <p>eaneer Energy Distribution Services</p>
           <p>
-            Take control of your security with eaneer’s reliable and innovative
-            solutions. Whether you need advanced surveillance, access control,
-            or a complete security overhaul, we’re here to help.
+            eaneer Industrials provides advanced energy distribution solutions
+            tailored to the unique demands of industrial environments, ensuring
+            reliability and efficiency in power delivery.
           </p>
-          <div className="Sub-Div">
-            <p>
-              Get in Touch for a free consultation or to schedule your next
-              service.
-            </p>
-            <button>Contact Us</button>
-          </div>
         </div>
-      </div>
-      <div className="Main-System-Security-Main4">
-        <p>Our Security Systems Services</p>
-        <p>
-          eaneer delivers high-performance security systems designed to keep
-          your property safe, providing comprehensive solutions tailored to meet
-          your security needs.
-        </p>
       </div>
       <div className="Main-System-Security-Main5">
         <div className="Main5-first">

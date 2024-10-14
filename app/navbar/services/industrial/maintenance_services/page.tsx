@@ -3,11 +3,11 @@ import Footer from "@/Component/Header/footer";
 import Image from "next/image";
 import {
   component23,
-  mask_group_33,
-  mask_group_34,
-  mask_group_35,
-  mask_group_36,
-  mask_group_37,
+  mask_group_62,
+  mask_group_63,
+  mask_group_64,
+  mask_group_65,
+  mask_group_66,
 } from "@/Assets/Assets";
 import "./page.css";
 
@@ -161,14 +161,6 @@ const SystemSecurity = () => {
           </div>
         </div>
       </div>
-      <div className="Main-System-Security-Main4">
-        <p>Our Security Systems Services</p>
-        <p>
-          eaneer delivers high-performance security systems designed to keep
-          your property safe, providing comprehensive solutions tailored to meet
-          your security needs.
-        </p>
-      </div>
       <div className="Main-System-Security-Main5">
         <div className="Main5-first">
           <p>Smart Surveillance Systems</p>
@@ -199,7 +191,7 @@ const SystemSecurity = () => {
         </div>
         <Image
           className="Main5-Image"
-          src={mask_group_33}
+          src={mask_group_62}
           height={285}
           alt="image-2"
         ></Image>
@@ -207,7 +199,7 @@ const SystemSecurity = () => {
       <div className="Main-System-Security-Main5">
         <Image
           className="Main5-Image"
-          src={mask_group_34}
+          src={mask_group_63}
           height={285}
           alt="image-2"
         ></Image>
@@ -269,7 +261,7 @@ const SystemSecurity = () => {
         </div>
         <Image
           className="Main5-Image"
-          src={mask_group_35}
+          src={mask_group_64}
           height={285}
           alt="image-2"
         ></Image>
@@ -277,7 +269,7 @@ const SystemSecurity = () => {
       <div className="Main-System-Security-Main5">
         <Image
           className="Main5-Image"
-          src={mask_group_36}
+          src={mask_group_65}
           height={285}
           alt="image-2"
         ></Image>
@@ -352,7 +344,7 @@ const SystemSecurity = () => {
           </div>
           
         </div>
-        <Image className="Main8-Image" src={mask_group_37} height={815} alt="image-3"></Image>
+        <Image className="Main8-Image" src={mask_group_66} height={815} alt="image-3"></Image>
         <div className="Main8-second"></div>
       </div>
       <div className="Main-System-Security-Main11">

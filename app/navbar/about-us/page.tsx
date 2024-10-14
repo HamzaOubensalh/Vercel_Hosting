@@ -2,7 +2,7 @@ import Header from '../../../Component/Header/header';
 import Footer from '../../../Component/Header/footer';
 import './page.css'
 import Image from 'next/image';
-import { about_us_image } from '@/Assets/Assets';
+import { about_us_image, big_logo1, big_logo2, big_logo3 } from '@/Assets/Assets';
 import { about_us_image2 } from '@/Assets/Assets';
 import { about_us_image3 } from '@/Assets/Assets';
 import { about_us_image4 } from '@/Assets/Assets';
@@ -80,7 +80,7 @@ const AboutUs = () => {
           </div>
           <div className='Holder-Div-2'>
             <div className='First'>
-              <div>
+              <div className='Second-Paragraph'>
                 <p>Overview</p>
                 <p>eaneer Enterprise Profile</p>
                 <p>Explore the comprehensive overview of eaneer's vision,
@@ -90,13 +90,15 @@ const AboutUs = () => {
                   Discover what makes Eaneer a trusted partner for clients worldwide.</p>
                 <p>Download now</p>
               </div>
-              <div>
-                <Image src={component23} alt={''} height={134.41} width={214.23}></Image>
+              <div className='Third_Logo'>
+                <Image src={big_logo1} height={45.66} width={45.63} alt='logo_1'></Image>
+                <Image src={big_logo2} height={43.06} width={122.91} alt='logo_1'></Image>
+                <Image src={big_logo3} height={45.69} width={45.69} alt='logo_1'></Image>
               </div>
             </div>
             <hr />
             <div className='Second'>
-              <div>
+              <div className='Second-Paragraph'>
                 <p>Overview</p>
                 <p>eaneer Enterprise Profile</p>
                 <p>Explore the comprehensive overview of eaneer's vision,
@@ -106,13 +108,15 @@ const AboutUs = () => {
                   Discover what makes Eaneer a trusted partner for clients worldwide.</p>
                 <p>Download now</p>
               </div>
-              <div>
-                <Image src={component23} alt={''} height={134.41} width={214.23}></Image>
+              <div className='Third_Logo'>
+                <Image src={big_logo1} height={45.66} width={45.63} alt='logo_1'></Image>
+                <Image src={big_logo2} height={43.06} width={122.91} alt='logo_1'></Image>
+                <Image src={big_logo3} height={45.69} width={45.69} alt='logo_1'></Image>
               </div>
             </div>
             <hr />
             <div className='Third'>
-              <div>
+              <div className='Second-Paragraph'>
                 <p>Overview</p>
                 <p>eaneer Enterprise Profile</p>
                 <p>Explore the comprehensive overview of eaneer's vision,
@@ -122,8 +126,10 @@ const AboutUs = () => {
                   Discover what makes Eaneer a trusted partner for clients worldwide.</p>
                 <p>Download now</p>
               </div>
-              <div>
-                <Image src={component23} alt={''} height={134.41} width={214.23}></Image>
+              <div className='Third_Logo'>
+                <Image src={big_logo1} height={45.66} width={45.63} alt='logo_1'></Image>
+                <Image src={big_logo2} height={43.06} width={122.91} alt='logo_1'></Image>
+                <Image src={big_logo3} height={45.69} width={45.69} alt='logo_1'></Image>
               </div>
             </div>
             <hr />
