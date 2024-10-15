@@ -25,9 +25,9 @@ const Industry = () => {
               </div>
               <div className="Main1-1-First-Content">
                 <p>
-                  eaneer Agriculture is dedicated to revolutionizing the
-                  agricultural sector with cutting-edge technologies and
-                  innovative solutions.
+                  <span>eaneer Agriculture</span> is dedicated to
+                  revolutionizing the agricultural sector with cutting-edge
+                  technologies and innovative solutions.
                 </p>
               </div>
               <div className="Main1-1-First-Buttons">
@@ -68,7 +68,7 @@ const Industry = () => {
             <div className="Content-First">
               <div className="First-Div">
                 <p>Efficient Water Management</p>
-                <p>Efficient Water Management</p>
+                <p>Automatic Pumping and Irrigation</p>
               </div>
               <div className="Second-Div">
                 <p>
@@ -84,13 +84,13 @@ const Industry = () => {
             </div>
             <div className="Content-Second">
               <div className="First-Div">
-                <p>Efficient Water Management</p>
-                <p>Efficient Water Management</p>
+                <p>Automation of Agricultural Greenhouses</p>
+                <p>Automation of Agricultural Greenhouses</p>
               </div>
               <div className="Second-Div">
                 <p>
-                  Our solutions are designed to minimize water wastage and
-                  maximize crop health.
+                  Control climate conditions, monitor plant health, and manage
+                  resources with precision.
                 </p>
                 <ul>
                   <li>Automated water distribution</li>
@@ -101,13 +101,13 @@ const Industry = () => {
             </div>
             <div className="Content-Third">
               <div className="First-Div">
-                <p>Efficient Water Management</p>
-                <p>Efficient Water Management</p>
+                <p>Connected Greenhouses</p>
+                <p>Connected Greenhouses</p>
               </div>
               <div className="Second-Div">
                 <p>
-                  Our solutions are designed to minimize water wastage and
-                  maximize crop health.
+                  Monitor and manage greenhouse conditions in real-time from
+                  anywhere, ensuring optimal growth conditions for your crops.
                 </p>
                 <ul>
                   <li>Automated water distribution</li>
@@ -118,30 +118,13 @@ const Industry = () => {
             </div>
             <div className="Content-Fifth">
               <div className="First-Div">
-                <p>Efficient Water Management</p>
-                <p>Efficient Water Management</p>
+                <p>Control of Agricultural Parameters</p>
+                <p>Control of Agricultural Parameters</p>
               </div>
               <div className="Second-Div">
                 <p>
-                  Our solutions are designed to minimize water wastage and
-                  maximize crop health.
-                </p>
-                <ul>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
-                </ul>
-              </div>
-            </div>
-            <div className="Content-Sixth">
-              <div className="First-Div">
-                <p>Efficient Water Management</p>
-                <p>Efficient Water Management</p>
-              </div>
-              <div className="Second-Div">
-                <p>
-                  Our solutions are designed to minimize water wastage and
-                  maximize crop health.
+                  eaneer helps you make informed decisions to enhance crop
+                  growth and productivity.
                 </p>
                 <ul>
                   <li>Automated water distribution</li>
@@ -192,14 +175,14 @@ const Industry = () => {
                   height={51.04}
                 ></Image>
                 <div className="Title">
-                  <p>Cutting-Edge Solutions</p>
-                  <p>Innovative Technologies</p>
+                  <p>Eco-Friendly Practices</p>
+                  <p>Sustainability Focus</p>
                 </div>
                 <div className="Content">
                   <p>
-                    We leverage the latest technological advancements to provide
-                    you with cutting-edge agricultural solutions that enhance
-                    efficiency and productivity.
+                    Our solutions are designed with sustainability in mind,
+                    helping you reduce environmental impact while maximizing
+                    crop yields.
                   </p>
                 </div>
                 <Image
@@ -217,14 +200,14 @@ const Industry = () => {
                   height={51.04}
                 ></Image>
                 <div className="Title">
-                  <p>Cutting-Edge Solutions</p>
-                  <p>Innovative Technologies</p>
+                  <p>Industry Leaders</p>
+                  <p>Expertise and Experience</p>
                 </div>
                 <div className="Content">
                   <p>
-                    We leverage the latest technological advancements to provide
-                    you with cutting-edge agricultural solutions that enhance
-                    efficiency and productivity.
+                    With years of experience in the agricultural sector, our
+                    team of experts is well-equipped to address your needs and
+                    provide reliable, effective solutions
                   </p>
                 </div>
                 <Image
@@ -242,14 +225,14 @@ const Industry = () => {
                   height={51.04}
                 ></Image>
                 <div className="Title">
-                  <p>Cutting-Edge Solutions</p>
-                  <p>Innovative Technologies</p>
+                  <p>End-to-End Service</p>
+                  <p>Comprehensive Support</p>
                 </div>
                 <div className="Content">
                   <p>
-                    We leverage the latest technological advancements to provide
-                    you with cutting-edge agricultural solutions that enhance
-                    efficiency and productivity.
+                    From consultation to maintenance, we offer comprehensive
+                    support services to ensure your success. Our team is always
+                    ready to assist you at every step.
                   </p>
                 </div>
                 <Image

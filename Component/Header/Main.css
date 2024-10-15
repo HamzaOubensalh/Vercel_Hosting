@@ -186,11 +186,7 @@
     background-color:#2C4A52;
     margin-bottom: 30px;
 }
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%; /* Optional: to ensure body takes full width */
-}
+
 .Second-Titles{
     margin-top: 38px;
     width: 66.4vw;
@@ -250,13 +246,11 @@ html, body {
     flex-direction: column;
     justify-content: center;
     width: 22.7vw;
-    height: 100%;
 }
 .Second-Main-second .Second-Main-Title{
     margin: 0;
     text-align: left;
 }
-
 
 .Second-Main-Title p{
     font-family: Source Code Pro;
@@ -305,7 +299,7 @@ hr{
     background-color:white;
 }
 .Third-Main{
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -317,14 +311,14 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 .Sub-Third-Main-Container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     margin-bottom: 70px;
 }
 .Third-Main-Titles{
@@ -546,87 +540,4 @@ hr{
     border-radius: 7px;
     height: 58px;
 }
-@media (min-width:1366px) and (max-width:1920px) {
-    .Second-Main-second{
-        width: 22.7vw;
-        height: 68.78%;
-    }
-    .Second-Main-Paragraph p{
-        font-size: 15px;
-    }
-    /* .Fourth-Main{
-        display: flex ;
-        flex-direction: column;
-    }
-    .Fourth-Main1{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .Fourth-Main2{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    } */
-    
-}
-@media (min-width:1921px) {
-    .Cards {
-        width: 55vw;
-        display: flex;
-        justify-content: center;
-        align-items: stretch;
-        flex-wrap: wrap;
-        gap: 16px;
-        margin-bottom: 40px;
-      }
-      
-      .Cards div {
-        flex-basis: calc(50% - 8px); /* Adjusting for the gap */
-      }
-    
-    .Cards .card{
-       
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 19px 21px;
-    }
-    .Cards .card-white{
-        color: #11212D;
-        background-color: #FFFFFF;
-        width: 524px;
-    }
-    .Cards .card-black{
-       
-            background-color: #06141B;
-            color: #FFFFFF;
-            width: 524px;
-    }
-    .Second-Main{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        background-color:#2C4A52;
-        padding: 0px 0px 74px 0px;
-        margin-bottom: 30px;
-    }
-    .Second-Titles{
-        width: 66.6vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-}
-@media  screen and (max-width:1600px) {
-    .Main{
-        width: 100vw;
-    } 
-}
+

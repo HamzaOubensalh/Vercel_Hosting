@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
 .Main-Industry-Main{
     width: 100%;
     display: flex;
@@ -41,15 +43,21 @@
     color: #CCD0CF;
 }
 .Main1-1-First .Main1-1-First-Titles p:nth-child(2){
-    font-family: Rubik,sans-serif;
+    font-family: Rubik;
     font-size: 64px;
+    font-weight: 600;
     color: #FFFFFF;
 }
 
 .Main1-1-First .Main1-1-First-Content p{
-    font-family: Rubik,sans-serif;
+    font-family: Rubik;
     font-size: 20px;
     color: #FFFFFF;
+}
+.Main1-1-First-Content p span{
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 600;
 }
 .Main1-1-First .Main1-1-First-Buttons{
     display: flex;
@@ -82,15 +90,20 @@
     gap: 6px;
     margin-bottom: 134px;
 }
+.Main-Industry-Main2 p{
+    text-align: center;
+}
 .Main-Industry-Main2 p:nth-child(1){
     font-family: Raleway;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
+    margin-bottom: 0px;
 }
 .Main-Industry-Main2 p:nth-child(2){
     font-family: Libre Franklin;
-    font-size: 60px;
-    font-weight: 400;
+    font-size: 64px;
+    font-weight: 600;
+    margin-top: 0px;
 }
 .Main-Industry-Main3{
     width: 45.83vw;
@@ -101,9 +114,8 @@
     margin-bottom: 105px;
 }
 .Main-Industry-Main3 p{
-    font-family: Rubik,sans-serif;
-    font-size: 42px;
-    font-weight: 50;
+    font-family: Rubik;
+    font-size: 40px;
 }
 .Main-Industry-Main4{
     width: 66.66vw;
@@ -120,31 +132,46 @@
     font-weight: 400;
     color: #CCD0CF;
 }
+.Main-Industry-Main4 .Main4-Content{
+    margin-bottom: 0px;
+}
 .Main-Industry-Main4 .Main4-Content>div{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center ;
     gap: 124px;
+    border-top: 3px solid #132E35;
+    padding-top: 23px;
 }
+/* .Main-Industry-Main4 .Main4-Content div div:nth-child(2) p{
+    width: 32.91vw;
+    margin-bottom: 49px;
+} */
 .First-Div p:nth-child(1){
-    font-family: Rubik,sans-serif;
+    font-family: Rubik;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
 }
 .First-Div p:nth-child(2){
     font-family: Libre Franklin;
     font-size: 55px;
-    font-weight: bold;
+    font-weight: 600;
+    width: 21.92vw;
 }
 .Second-Div p:nth-child(1){
     font-family: Libre Franklin;
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 600;
+}
+.Second-Div ul{
+    position: relative;
+    left: 60px;
 }
 .Second-Div li{
     font-family: Inter;
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 400;
+    margin-bottom: 21px;
 }
 .Main4-Content>div{
     margin-bottom: 44px;
@@ -170,12 +197,12 @@
 .Main5-Title p{
     font-family: Libre Franklin;
     font-size: 64px;
-    font-weight: 400;
+    font-weight: 600;
 }
 .Main-Industry-Main5 .Main5-Content{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     gap: 16px;
 }
 .Main-Industry-Main5 .Title{
@@ -184,14 +211,14 @@
 .Main-Industry-Main5 .Title p:nth-child(1){
     font-family: Source Code Pro;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     color: #CCD0CF;
     margin-bottom: 0px;
 }
 .Main-Industry-Main5 .Title p:nth-child(2){
     font-family: Inter;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 600;
     color: #FFFFFF;
 }
 .Main-Industry-Main5 .Content p{
