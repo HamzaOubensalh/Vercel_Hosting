@@ -3,6 +3,7 @@ import "./page.css";
 import { component23, mask_group_12, path_8 } from "@/Assets/Assets";
 import Image from "next/image";
 import Footer from "@/Component/Header/footer";
+import CardEmail from "@/Component/CardEmail";
 
 const Industry = () => {
   return (
@@ -248,18 +249,7 @@ const Industry = () => {
         <div className="Main-Industry-Main6">
           <Image src={component23} alt={""} height={37.6}></Image>
         </div>
-        <div className="Fourth-Main">
-          <div className="Fourth-Main1">
-            <p>Contact Us Today</p>
-            <p className="content">
-              Have questions about our services or ready to start your project?{" "}
-            </p>
-          </div>
-          <div className="Fourth-Main2">
-            <input type="text" placeholder="Type Your Email" />
-            <button>Get Started</button>
-          </div>
-        </div>
+        <CardEmail />
         <Footer />
       </div>
     </>

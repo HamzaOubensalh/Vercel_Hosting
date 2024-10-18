@@ -6,6 +6,7 @@ import Image from "next/image";
 import { second_tractore } from "../../Assets/Assets";
 import { manufacture } from "../../Assets/Assets";
 import { something } from "../../Assets/Assets";
+import CardEmail from "../CardEmail";
 
 const Main = () => {
   return (
@@ -261,20 +262,9 @@ const Main = () => {
               <p>Trust Eaneer for uncompromising electrical peace of mind</p>
             </div>
           </div>
-          <div className="Fourth-Main">
-            <div className="Fourth-Main1">
-              <p>Contact Us Today</p>
-              <p className="content">Have questions about our</p>
-              <p className="content">services or ready to start</p>
-              <p className="content">your project?</p>
-            </div>
-            <div className="Fourth-Main2">
-              <input type="text" placeholder="Type Your Email" />
-              <button>Get Started</button>
-            </div>
-          </div>
+          <CardEmail />
         </div>
-      </div>
+      </div>  
     </div>
   );
 };

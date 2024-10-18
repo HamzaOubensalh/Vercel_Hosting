@@ -7,6 +7,7 @@ import { about_us_image2 } from '@/Assets/Assets';
 import { about_us_image3 } from '@/Assets/Assets';
 import { about_us_image4 } from '@/Assets/Assets';
 import { component23 } from '@/Assets/Assets';
+import CardEmail from '@/Component/CardEmail';
 
 const AboutUs = () => {
   return (
@@ -134,16 +135,7 @@ const AboutUs = () => {
             </div>
             <hr />
           </div>
-          <div className="Fourth-Main">
-            <div className="Fourth-Main1">
-              <p>Contact Us Today</p>
-              <p className="content">Have questions about our services or ready to start your project? </p>
-            </div>
-            <div className="Fourth-Main2">
-              <input type="text" placeholder="Type Your Email" />
-              <button>Get Started</button>
-            </div>
-          </div>
+          <CardEmail />
           <Footer />
         </div>
       </div>

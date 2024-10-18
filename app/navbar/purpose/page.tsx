@@ -10,6 +10,7 @@ import {
   mask_group_55,
 } from "@/Assets/Assets";
 import "./page.css";
+import CardEmail from "@/Component/CardEmail";
 
 const Purpose = () => {
   // console.log(mask_group_53.height)
@@ -99,18 +100,7 @@ const Purpose = () => {
             ></Image>
           </div>
         </div>
-        <div className="Fourth-Main">
-            <div className="Fourth-Main1">
-              <p>Contact Us Today</p>
-              <p className="content">Have questions about our</p>
-              <p className="content">services or ready to start</p>
-              <p className="content">your project?</p>
-            </div>
-            <div className="Fourth-Main2">
-              <input type="text" placeholder="Type Your Email" />
-              <button>Get Started</button>
-            </div>
-          </div>
+        <CardEmail />
       </div>
       <Footer />
     </>

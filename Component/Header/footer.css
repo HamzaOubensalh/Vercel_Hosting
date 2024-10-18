@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 .footer{
     display: flex;
     justify-content: center;
@@ -5,6 +7,17 @@
     margin-bottom: 20px;
     width: 100%;
     margin-top: 21.6px;
+    border-top: 1px solid #707070;
+    padding-top: 27px;
+    margin-bottom: 0px;
+}
+.Holder-Footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #707070;
+    padding-bottom: 70px;
 }
 .footer-style{
     display: flex;
@@ -21,11 +34,17 @@
 .Content-Footer .image{
     margin-bottom: 19.5px;
 }
+.Content-Footer .Texts{
+    width: 20.88vw;
+}
 .Content-Footer p{
     font-family: Libre Franklin;
     font-size: 18px;
     margin: 2px;
     color: #CCD0CF;
+}
+.Content-Footer p:nth-child(1){
+    font-weight: 600;
 }
 
 .Second-Footer{
@@ -34,11 +53,18 @@
     gap: 30px;
     margin-bottom: 67px;
 }
+.Second-Footer div p{
+    font-family: Libre Franklin;
+    font-size: 18px;
+}
 .Second-Footer ul{
     margin-bottom: 10px;
 }
 .Second-Footer li{
     list-style: none;
+    margin: 5px;
+    font-family: Inter;
+    font-size: 14px;
 }
 .Second-Footer li a{
     text-decoration: none;
@@ -57,7 +83,6 @@
     justify-content: center;
     align-items: center;
     margin-top: 0px;
-    
 }
 .holder{
     width: 68vw;
@@ -67,13 +92,16 @@
 .holder .links{
     display: flex;
     gap: 29px;
+    padding-top: 0px;
 }
 .links a{
     font-family: Source Code Pro;
     font-size: 14px;
-    color: white;
+    color: #CCD0CF;
 }
 .copyright p{
     font-family: Source Code Pro;
     font-size: 14px;
+    font-weight: 600;
+    color: #CCD0CF;
 }

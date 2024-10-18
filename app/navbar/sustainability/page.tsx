@@ -10,6 +10,7 @@ import {
 } from "@/Assets/Assets";
 import Image from "next/image";
 import "./page.css";
+import CardEmail from "@/Component/CardEmail";
 
 const Sustainability = () => {
   return (
@@ -75,27 +76,25 @@ const Sustainability = () => {
           <Image src={mask_group_30} height={472} alt="image-2"></Image>
         </div>
         <div className="Item1">
-          <p>Leading with Purpose</p>
+          <p>Environmental Stewardship</p>
           <p>
-            contributing to the well-being of the planet while thriving
-            economically. Our sustainability vision is centered on three
-            pillars: environmental stewardship, social responsibility, and
-            economic viability. By integrating these principles into our
-            operations, we aim to set new standards for what it means to be a
-            responsible and forward-thinking company.
+            eaneer recognize our responsibility to minimize our environmental
+            footprint. We are committed to reducing greenhouse gas emissions,
+            conserving natural resources, and promoting biodiversity. Through
+            our sustainable practices, we strive to protect the environment and
+            leave a positive legacy for future generations
           </p>
         </div>
       </div>
       <div className="Main-Sustainability-Main4">
         <div className="Item1">
-          <p>Leading with Purpose</p>
+          <p>Social Responsibility</p>
           <p>
-            contributing to the well-being of the planet while thriving
-            economically. Our sustainability vision is centered on three
-            pillars: environmental stewardship, social responsibility, and
-            economic viability. By integrating these principles into our
-            operations, we aim to set new standards for what it means to be a
-            responsible and forward-thinking company.
+            Sustainability extends beyond the environment—it’s also about
+            people. We are dedicated to supporting the communities in which we
+            operate by creating jobs, promoting fair labor practices, and
+            investing in social initiatives that uplift and empower individuals.
+            Our goal is to contribute to a more equitable and just society.
           </p>
         </div>
         <div className="Item2">
@@ -107,14 +106,13 @@ const Sustainability = () => {
           <Image src={mask_group_32} height={472} alt="image-2"></Image>
         </div>
         <div className="Item1">
-          <p>Leading with Purpose</p>
+          <p>Economic Viability</p>
           <p>
-            contributing to the well-being of the planet while thriving
-            economically. Our sustainability vision is centered on three
-            pillars: environmental stewardship, social responsibility, and
-            economic viability. By integrating these principles into our
-            operations, we aim to set new standards for what it means to be a
-            responsible and forward-thinking company.
+            We believe that sustainability and profitability go hand in hand. By
+            adopting sustainable practices, we not only protect the planet but
+            also create long-term value for our stakeholders. eaneer’s
+            sustainability initiatives are designed to drive innovation, reduce
+            costs, and enhance our competitive advantage in the market.
           </p>
         </div>
       </div>
@@ -158,18 +156,7 @@ const Sustainability = () => {
           build a greener, more sustainable future.
         </p>
       </div>
-      <div className="Fourth-Main">
-        <div className="Fourth-Main1">
-          <p>Contact Us Today</p>
-          <p className="content">
-            Have questions about our services or ready to start your project?{" "}
-          </p>
-        </div>
-        <div className="Fourth-Main2">
-          <input type="text" placeholder="Type Your Email" />
-          <button>Get Started</button>
-        </div>
-      </div>
+      <CardEmail />
       <Footer />
     </div>
   );

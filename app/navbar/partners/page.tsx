@@ -6,6 +6,7 @@ import "./page.css";
 import Image from "next/image";
 import { component23, mask_group_52 } from "@/Assets/Assets";
 import { useState, useEffect } from "react";
+import CardEmail from "@/Component/CardEmail";
 
 const Partners = () => {
   const [display, setDisplay] = useState(false);
@@ -397,18 +398,7 @@ const Partners = () => {
             alt={"Eaneer_Logo"}
           />
         </div>
-        <div className="Fourth-Main">
-          <div className="Fourth-Main1">
-            <p>Contact Us Today</p>
-            <p className="content">
-              Have questions about our services or ready to start your project?
-            </p>
-          </div>
-          <div className="Fourth-Main2">
-            <input type="text" placeholder="Type Your Email" />
-            <button>Get Started</button>
-          </div>
-        </div>
+        <CardEmail />
         <hr />
         <Footer />
       </div>

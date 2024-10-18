@@ -4,6 +4,7 @@ import Image from "next/image";
 import "./page.css";
 import { mask_group_7 } from "@/Assets/Assets";
 import { component23 } from "@/Assets/Assets";
+import CardEmail from "@/Component/CardEmail";
 
 const Affiliate = () => {
   return (
@@ -152,18 +153,7 @@ const Affiliate = () => {
           </p>
         </div>
       </div>
-      <div className="Fourth-Main">
-        <div className="Fourth-Main1">
-          <p>Contact Us Today</p>
-          <p className="content">
-            Have questions about our services or ready to start your project?{" "}
-          </p>
-        </div>
-        <div className="Fourth-Main2">
-          <input type="text" placeholder="Type Your Email" />
-          <button>Get Started</button>
-        </div>
-      </div>
+      <CardEmail />
       <hr />
       <Footer />
     </div>

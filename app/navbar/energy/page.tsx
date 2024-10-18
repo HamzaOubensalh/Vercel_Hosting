@@ -3,6 +3,7 @@ import "./page.css";
 import { component23, mask_group_14, path_8 } from "@/Assets/Assets";
 import Image from "next/image";
 import Footer from "@/Component/Header/footer";
+import CardEmail from "@/Component/CardEmail";
 
 const Industry = () => {
   return (
@@ -20,14 +21,13 @@ const Industry = () => {
                 <p></p>
               </div>
               <div className="Main1-1-First-Titles">
-                <p>eaneer Agriculture</p>
-                <p>Transforming Agriculture with Innovation</p>
+                <p>eaneer energetics</p>
+                <p>Harnessing the Power of Green Energy</p>
               </div>
               <div className="Main1-1-First-Content">
                 <p>
-                  eaneer Agriculture is dedicated to revolutionizing the
-                  agricultural sector with cutting-edge technologies and
-                  innovative solutions.
+                  eaneer Energetics is dedicated to promoting renewable energy
+                  and enhancing energy efficiency through cutting-edge solutions
                 </p>
               </div>
               <div className="Main1-1-First-Buttons">
@@ -47,17 +47,17 @@ const Industry = () => {
         </div>
         <div className="Main-Industry-Main2">
           <p>
-            Enhancing Productivity, Sustainability, And Efficiency In Farming
-            Practices.
+            We Aim To Create A Sustainable Future By Providing Innovative And
+            Reliable Green Energy Systems.
           </p>
-          <p>Empowering Sustainable Agriculture</p>
+          <p>Leading the Green Energy Revolution</p>
         </div>
         <div className="Main-Industry-Main3">
           <p>
-            eaneer Agriculture, we envision a future where technology and
-            sustainability go hand in hand. We aim to provide farmers with
-            advanced tools and systems that optimize agricultural operations,
-            reduce environmental impact, and increase yields.
+            Eaneer Energetics, we envision a world powered by clean, renewable
+            energy. Our mission is to make green energy accessible and efficient
+            for everyone, reducing carbon footprints and fostering a sustainable
+            future.
           </p>
         </div>
         <div className="Main-Industry-Main4">
@@ -67,86 +67,69 @@ const Industry = () => {
           <div className="Main4-Content">
             <div className="Content-First">
               <div className="First-Div">
-                <p>Efficient Water Management</p>
-                <p>Efficient Water Management</p>
+                <p>Harness the Sun's Power</p>
+                <p>Solar Energy Systems</p>
               </div>
               <div className="Second-Div">
                 <p>
-                  Our solutions are designed to minimize water wastage and
-                  maximize crop health.
+                  Our solar energy systems are designed to maximize energy
+                  production and efficiency
                 </p>
                 <ul>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
+                  <li>Customized solar PV system design</li>
+                  <li>High-efficiency solar panels</li>
+                  <li>Energy storage solutions</li>
                 </ul>
               </div>
             </div>
             <div className="Content-Second">
               <div className="First-Div">
-                <p>Efficient Water Management</p>
-                <p>Efficient Water Management</p>
+                <p>Optimize Your Energy Use</p>
+                <p>Energy Efficiency Solutions</p>
               </div>
               <div className="Second-Div">
                 <p>
-                  Our solutions are designed to minimize water wastage and
-                  maximize crop health.
+                  Our energy efficiency solutions help you reduce energy
+                  consumption and lower costs
                 </p>
                 <ul>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
+                  <li>Comprehensive energy audits</li>
+                  <li>Energy management systems</li>
+                  <li>LED lighting retrofits</li>
                 </ul>
               </div>
             </div>
             <div className="Content-Third">
               <div className="First-Div">
-                <p>Efficient Water Management</p>
-                <p>Efficient Water Management</p>
+                <p>Combine Renewable Sources</p>
+                <p>Hybrid Energy Systems</p>
               </div>
               <div className="Second-Div">
                 <p>
-                  Our solutions are designed to minimize water wastage and
-                  maximize crop health.
+                  Maximize energy reliability and efficiency with our hybrid
+                  energy systems.
                 </p>
                 <ul>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
+                  <li>Integrated solar and wind systems</li>
+                  <li>Smart energy management</li>
+                  <li>Backup power solutions</li>
                 </ul>
               </div>
             </div>
             <div className="Content-Fifth">
               <div className="First-Div">
-                <p>Efficient Water Management</p>
-                <p>Efficient Water Management</p>
+                <p>Capturing Wind for Power</p>
+                <p>Wind Energy Solutions</p>
               </div>
               <div className="Second-Div">
                 <p>
-                  Our solutions are designed to minimize water wastage and
-                  maximize crop health.
+                  Our energy efficiency solutions help you reduce energy
+                  consumption and lower costs.
                 </p>
                 <ul>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
-                </ul>
-              </div>
-            </div>
-            <div className="Content-Sixth">
-              <div className="First-Div">
-                <p>Efficient Water Management</p>
-                <p>Efficient Water Management</p>
-              </div>
-              <div className="Second-Div">
-                <p>
-                  Our solutions are designed to minimize water wastage and
-                  maximize crop health.
-                </p>
-                <ul>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
+                  <li>Wind turbine installation</li>
+                  <li>Wind resource assessment</li>
+                  <li>Integrated energy management</li>
                 </ul>
               </div>
             </div>
@@ -155,7 +138,7 @@ const Industry = () => {
         <div className="Main-Industry-Main5">
           <div className="Main-Industry-Main5-Holder">
             <div className="Main5-Title">
-              <p>Why Choose eaneer Agriculture?</p>
+              <p>Why Choose eaneer Energetics?</p>
             </div>
             <div className="Main5-Content">
               <div className="One">
@@ -172,8 +155,8 @@ const Industry = () => {
                 <div className="Content">
                   <p>
                     We leverage the latest technological advancements to provide
-                    you with cutting-edge agricultural solutions that enhance
-                    efficiency and productivity.
+                    you with cutting-edge green energy solutions that enhance
+                    efficiency and sustainability.
                   </p>
                 </div>
                 <Image
@@ -192,14 +175,14 @@ const Industry = () => {
                   height={51.04}
                 ></Image>
                 <div className="Title">
-                  <p>Cutting-Edge Solutions</p>
-                  <p>Innovative Technologies</p>
+                  <p>Eco-Friendly Practices</p>
+                  <p>Sustainability Focus</p>
                 </div>
                 <div className="Content">
                   <p>
-                    We leverage the latest technological advancements to provide
-                    you with cutting-edge agricultural solutions that enhance
-                    efficiency and productivity.
+                    Our solutions are designed with sustainability in mind,
+                    helping you reduce environmental impact while maximizing
+                    energy production and efficiency.
                   </p>
                 </div>
                 <Image
@@ -217,14 +200,14 @@ const Industry = () => {
                   height={51.04}
                 ></Image>
                 <div className="Title">
-                  <p>Cutting-Edge Solutions</p>
-                  <p>Innovative Technologies</p>
+                  <p>Industry Leaders</p>
+                  <p>Expertise and Experience</p>
                 </div>
                 <div className="Content">
                   <p>
-                    We leverage the latest technological advancements to provide
-                    you with cutting-edge agricultural solutions that enhance
-                    efficiency and productivity.
+                    With years of experience in the green energy sector, our
+                    team of experts is well-equipped to address your needs and
+                    provide reliable, effective solutions.
                   </p>
                 </div>
                 <Image
@@ -242,14 +225,14 @@ const Industry = () => {
                   height={51.04}
                 ></Image>
                 <div className="Title">
-                  <p>Cutting-Edge Solutions</p>
-                  <p>Innovative Technologies</p>
+                  <p>End-to-End Service</p>
+                  <p>Comprehensive Support</p>
                 </div>
                 <div className="Content">
                   <p>
-                    We leverage the latest technological advancements to provide
-                    you with cutting-edge agricultural solutions that enhance
-                    efficiency and productivity.
+                    From consultation to maintenance, we offer comprehensive
+                    support services to ensure your success. Our team is always
+                    ready to assist you at every step.
                   </p>
                 </div>
                 <Image
@@ -265,18 +248,7 @@ const Industry = () => {
         <div className="Main-Industry-Main6">
           <Image src={component23} alt={""} height={37.6}></Image>
         </div>
-        <div className="Fourth-Main">
-          <div className="Fourth-Main1">
-            <p>Contact Us Today</p>
-            <p className="content">
-              Have questions about our services or ready to start your project?{" "}
-            </p>
-          </div>
-          <div className="Fourth-Main2">
-            <input type="text" placeholder="Type Your Email" />
-            <button>Get Started</button>
-          </div>
-        </div>
+        <CardEmail />
         <Footer />
       </div>
     </>

@@ -3,6 +3,7 @@ import Footer from "@/Component/Header/footer";
 import Image from "next/image";
 import "./page.css";
 import { component23, partners_image } from "@/Assets/Assets";
+import CardEmail from "@/Component/CardEmail";
 
 const strategy = () => {
   return (
@@ -122,18 +123,7 @@ const strategy = () => {
       <div className="Main-Strategy-Content4">
         <Image src={component23} height={37.6} width={33.83} alt="logo"></Image>
       </div>
-      <div className="Fourth-Main">
-        <div className="Fourth-Main1">
-          <p>Contact Us Today</p>
-          <p className="content">
-            Have questions about our services or ready to start your project?{" "}
-          </p>
-        </div>
-        <div className="Fourth-Main2">
-          <input type="text" placeholder="Type Your Email" />
-          <button>Get Started</button>
-        </div>
-      </div>
+      <CardEmail />
       <hr />
       <Footer />
     </div>

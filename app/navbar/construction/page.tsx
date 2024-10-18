@@ -3,6 +3,7 @@ import "./page.css";
 import { component23, mask_group_15, path_8 } from "@/Assets/Assets";
 import Image from "next/image";
 import Footer from "@/Component/Header/footer";
+import CardEmail from "@/Component/CardEmail";
 
 const Industry = () => {
   return (
@@ -20,14 +21,13 @@ const Industry = () => {
                 <p></p>
               </div>
               <div className="Main1-1-First-Titles">
-                <p>eaneer Agriculture</p>
-                <p>Transforming Agriculture with Innovation</p>
+                <p>eaneer construction</p>
+                <p>Building the Future with Innovation</p>
               </div>
               <div className="Main1-1-First-Content">
                 <p>
-                  eaneer Agriculture is dedicated to revolutionizing the
-                  agricultural sector with cutting-edge technologies and
-                  innovative solutions.
+                  eaneer Construction is at the forefront of transforming the
+                  construction industry with advanced electrical solutions.
                 </p>
               </div>
               <div className="Main1-1-First-Buttons">
@@ -47,17 +47,17 @@ const Industry = () => {
         </div>
         <div className="Main-Industry-Main2">
           <p>
-            Enhancing Productivity, Sustainability, And Efficiency In Farming
-            Practices.
+            Committed To Delivering Excellence In Every Project, Ensuring
+            Safety, Efficiency, And Quality In All Our Installations.
           </p>
-          <p>Empowering Sustainable Agriculture</p>
+          <p>Shaping Tomorrow's Infrastructure</p>
         </div>
         <div className="Main-Industry-Main3">
           <p>
-            eaneer Agriculture, we envision a future where technology and
-            sustainability go hand in hand. We aim to provide farmers with
-            advanced tools and systems that optimize agricultural operations,
-            reduce environmental impact, and increase yields.
+            eaneer Construction, we envision a future where buildings are not
+            just structures but smart, efficient, and sustainable environments.
+            Our goal is to provide cutting-edge electrical solutions that
+            enhance the functionality and aesthetics of every project.
           </p>
         </div>
         <div className="Main-Industry-Main4">
@@ -67,86 +67,67 @@ const Industry = () => {
           <div className="Main4-Content">
             <div className="Content-First">
               <div className="First-Div">
-                <p>Efficient Water Management</p>
-                <p>Efficient Water Management</p>
+                <p>Professional Expertise for Every Project</p>
+                <p>Electrical Installation</p>
               </div>
               <div className="Second-Div">
                 <p>
-                  Our solutions are designed to minimize water wastage and
-                  maximize crop health.
+                  We ensure that every installation is safe, compliant, and
+                  efficient.
                 </p>
                 <ul>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
+                  <li>Comprehensive planning and design</li>
+                  <li>Compliance with safety standards</li>
+                  <li>Energy-efficient solutions</li>
                 </ul>
               </div>
             </div>
             <div className="Content-Second">
               <div className="First-Div">
-                <p>Efficient Water Management</p>
-                <p>Efficient Water Management</p>
+                <p>Illuminating Spaces</p>
+                <p>Indoor and Outdoor Lighting</p>
               </div>
               <div className="Second-Div">
                 <p>
-                  Our solutions are designed to minimize water wastage and
-                  maximize crop health.
+                  Transform your spaces with our innovative lighting solutions
                 </p>
                 <ul>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
+                  <li>Custom lighting design</li>
+                  <li>Energy-saving LED solutions</li>
+                  <li>Smart lighting controls</li>
                 </ul>
               </div>
             </div>
             <div className="Content-Third">
               <div className="First-Div">
-                <p>Efficient Water Management</p>
-                <p>Efficient Water Management</p>
+                <p>Ensuring Longevity and Safety</p>
+                <p>Maintenance and Repair</p>
               </div>
               <div className="Second-Div">
                 <p>
-                  Our solutions are designed to minimize water wastage and
-                  maximize crop health.
+                  Our maintenance and repair services are designed to keep your
+                  electrical systems in top condition
                 </p>
                 <ul>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
+                  <li>Scheduled maintenance plans</li>
+                  <li>24/7 emergency repair services</li>
+                  <li>System upgrades and retrofits</li>
                 </ul>
               </div>
             </div>
             <div className="Content-Fifth">
               <div className="First-Div">
-                <p>Efficient Water Management</p>
-                <p>Efficient Water Management</p>
+                <p>Protecting What Matters Most</p>
+                <p>Security Systems</p>
               </div>
               <div className="Second-Div">
                 <p>
-                  Our solutions are designed to minimize water wastage and
-                  maximize crop health.
+                  Safeguard your property with our advanced security systems
                 </p>
                 <ul>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
-                </ul>
-              </div>
-            </div>
-            <div className="Content-Sixth">
-              <div className="First-Div">
-                <p>Efficient Water Management</p>
-                <p>Efficient Water Management</p>
-              </div>
-              <div className="Second-Div">
-                <p>
-                  Our solutions are designed to minimize water wastage and
-                  maximize crop health.
-                </p>
-                <ul>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
-                  <li>Automated water distribution</li>
+                  <li>High-definition surveillance cameras</li>
+                  <li>Integrated access control systems</li>
+                  <li>Real-time monitoring and alerts</li>
                 </ul>
               </div>
             </div>
@@ -155,7 +136,7 @@ const Industry = () => {
         <div className="Main-Industry-Main5">
           <div className="Main-Industry-Main5-Holder">
             <div className="Main5-Title">
-              <p>Why Choose eaneer Agriculture?</p>
+              <p>Why Choose eaneer Construction?</p>
             </div>
             <div className="Main5-Content">
               <div className="One">
@@ -172,7 +153,7 @@ const Industry = () => {
                 <div className="Content">
                   <p>
                     We leverage the latest technological advancements to provide
-                    you with cutting-edge agricultural solutions that enhance
+                    you with cutting-edge electrical solutions that enhance
                     efficiency and productivity.
                   </p>
                 </div>
@@ -192,14 +173,14 @@ const Industry = () => {
                   height={51.04}
                 ></Image>
                 <div className="Title">
-                  <p>Cutting-Edge Solutions</p>
-                  <p>Innovative Technologies</p>
+                  <p>Eco-Friendly Practices</p>
+                  <p>Sustainability Focus</p>
                 </div>
                 <div className="Content">
                   <p>
-                    We leverage the latest technological advancements to provide
-                    you with cutting-edge agricultural solutions that enhance
-                    efficiency and productivity.
+                    Our solutions are designed with sustainability in mind,
+                    helping you reduce environmental impact while maximizing
+                    crop yields.
                   </p>
                 </div>
                 <Image
@@ -217,14 +198,14 @@ const Industry = () => {
                   height={51.04}
                 ></Image>
                 <div className="Title">
-                  <p>Cutting-Edge Solutions</p>
-                  <p>Innovative Technologies</p>
+                  <p>Industry Leaders</p>
+                  <p>Expertise and Experience</p>
                 </div>
                 <div className="Content">
                   <p>
-                    We leverage the latest technological advancements to provide
-                    you with cutting-edge agricultural solutions that enhance
-                    efficiency and productivity.
+                    With years of experience in the construction sector, our
+                    team of experts is well-equipped to address your needs and
+                    provide reliable, effective solutions.
                   </p>
                 </div>
                 <Image
@@ -242,14 +223,14 @@ const Industry = () => {
                   height={51.04}
                 ></Image>
                 <div className="Title">
-                  <p>Cutting-Edge Solutions</p>
-                  <p>Innovative Technologies</p>
+                  <p>End-to-End Service</p>
+                  <p>Comprehensive Support</p>
                 </div>
                 <div className="Content">
                   <p>
-                    We leverage the latest technological advancements to provide
-                    you with cutting-edge agricultural solutions that enhance
-                    efficiency and productivity.
+                    From consultation to maintenance, we offer comprehensive
+                    support services to ensure your success. Our team is always
+                    ready to assist you at every step.
                   </p>
                 </div>
                 <Image
@@ -265,18 +246,7 @@ const Industry = () => {
         <div className="Main-Industry-Main6">
           <Image src={component23} alt={""} height={37.6}></Image>
         </div>
-        <div className="Fourth-Main">
-          <div className="Fourth-Main1">
-            <p>Contact Us Today</p>
-            <p className="content">
-              Have questions about our services or ready to start your project?{" "}
-            </p>
-          </div>
-          <div className="Fourth-Main2">
-            <input type="text" placeholder="Type Your Email" />
-            <button>Get Started</button>
-          </div>
-        </div>
+        <CardEmail />
         <Footer />
       </div>
     </>

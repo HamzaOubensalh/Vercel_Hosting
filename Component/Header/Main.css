@@ -48,6 +48,9 @@
     margin-bottom: 40px;
     width: 21.66vw;
 }
+.Input .input-style{
+    width: 100%;
+}
 .Input input{
     border: none;
     border-radius: 10px;
@@ -67,6 +70,11 @@
 .Input .input-style button{
     border-radius: 10px;
     padding: 5px 5px;
+    border: 1px none #707070;
+    width: 5vw;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 600;
 }
 .Phrase{
     margin-bottom: 40px;
@@ -115,7 +123,7 @@
 .card-black p{
     font-family: Raleway;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 600;
 }
 .Cards .card-white{
     color: #11212D;
@@ -129,7 +137,7 @@
 .card-white p{
     font-family: Raleway;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 600;
 }
 .Cards .top-banner{
     width: 100%;
@@ -168,6 +176,7 @@
     justify-content: center;
     align-items: center;
     height: 26px;
+    border: 1px none #707070;
 }
 .card-white button{
     background-color: #06141B;
@@ -337,6 +346,7 @@ hr{
 .Third-Main-Titles h2{
     font-family: Libre Franklin;
     font-size: 28px;
+    font-weight: 600;
     width: 65vw;
     text-align: center;
 }
@@ -481,63 +491,5 @@ hr{
     font-weight: bold;
     color: #CCD0CF;
 }
-.Fourth-Main {
-    width: 68vw;
-    display: flex;
-    justify-content: space-between; /* Changed to space-between */
-    gap: 150px;
-    background-color: white;
-    color: black;
-    padding: 67px 200px 106px 105px; /* Ensure padding is applied */
-    border-radius: 20px;
-    box-sizing: border-box; /* Ensure padding is included in the total width/height */
-    margin-bottom: 33.9px;
-}
 
-.Fourth-Main1 p:nth-child(1){
-    font-family: Source Code Pro;
-    font-size: 18px;
-    font-weight: bold;
-    color: #69818D;
-    width: 11.09vw;
-    margin-bottom: 0px;
-}
-
-.Fourth-Main1 .content {
-    font-family: Raleway;
-    font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 0px;
-}
-
-
-.Fourth-Main2{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.Fourth-Main input {
-    width: 324px;
-    padding: 19px 92px;
-    border: 1px solid #707070;
-    border-radius: 7px;
-    margin-bottom: 7px;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: bold;
-    height: 58px;
-}
-
-.Fourth-Main button {
-    width: 324px;
-    padding: 19px 92px;
-    background-color: #2C4A52;
-    color: white;
-    border: 1px solid #707070;
-    border-radius: 7px;
-    height: 58px;
-}
 

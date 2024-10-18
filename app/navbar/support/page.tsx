@@ -1,6 +1,7 @@
 import Header from "@/Component/Header/header";
 import Footer from "@/Component/Header/footer";
 import './page.css';
+import CardEmail from "@/Component/CardEmail";
 
 
 const Support = () => {
@@ -107,16 +108,7 @@ const Support = () => {
             <div className="Main-Support-Main5">
                 <p>Our support team is available to help you with any inquiries or technical issues. </p>
             </div>
-            <div className="Fourth-Main">
-                <div className="Fourth-Main1">
-                    <p>Contact Us Today</p>
-                    <p className="content">Have questions about our services or ready to start your project? </p>
-                </div>
-                <div className="Fourth-Main2">
-                    <input type="text" placeholder="Type Your Email" />
-                    <button>Get Started</button>
-                </div>
-            </div>
+            <CardEmail />
             <Footer />
         </div>
 

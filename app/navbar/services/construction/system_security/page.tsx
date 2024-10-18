@@ -10,6 +10,7 @@ import {
   mask_group_37,
 } from "@/Assets/Assets";
 import "./page.css";
+import CardEmail from "@/Component/CardEmail";
 
 const SystemSecurity = () => {
   return (
@@ -355,18 +356,7 @@ const SystemSecurity = () => {
         <Image className="Main8-Image" src={mask_group_37} height={815} alt="image-3"></Image>
         <div className="Main8-second"></div>
       </div>
-      <div className="Fourth-Main">
-        <div className="Fourth-Main1">
-          <p>Contact Us Today</p>
-          <p className="content">
-            Have questions about our services or ready to start your project?{" "}
-          </p>
-        </div>
-        <div className="Fourth-Main2">
-          <input type="text" placeholder="Type Your Email" />
-          <button>Get Started</button>
-        </div>
-      </div>
+      <CardEmail />
       <Footer />
     </div>
   );

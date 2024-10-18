@@ -3,6 +3,7 @@ import Footer from "@/Component/Header/footer";
 import './page.css';
 import Image from "next/image";
 import { mask_group_9, component23, mask_group_10, mask_group_11 } from "@/Assets/Assets";
+import CardEmail from "@/Component/CardEmail";
 
 
 
@@ -168,16 +169,7 @@ const Carrer = () => {
             <div className="Main-Career-Main19">
                 <Image src={component23} alt={""} height={37.6} width={33.83}></Image>
             </div>
-            <div className="Fourth-Main">
-                    <div className="Fourth-Main1">
-                        <p>Contact Us Today</p>
-                        <p className="content">Have questions about our services or ready to start your project? </p>
-                    </div>
-                    <div className="Fourth-Main2">
-                        <input type="text" placeholder="Type Your Email" />
-                        <button>Get Started</button>
-                    </div>
-            </div>
+            <CardEmail />
             <Footer />
 
         </div>

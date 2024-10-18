@@ -3,13 +3,14 @@ import Footer from "@/Component/Header/footer";
 import Image from "next/image";
 import {
   component23,
-  mask_group_33,
-  mask_group_34,
-  mask_group_35,
-  mask_group_36,
-  mask_group_37,
+  mask_group_42,
+  mask_group_43,
+  mask_group_44,
+  mask_group_45,
+  mask_group_46,
 } from "@/Assets/Assets";
 import "./page.css";
+import CardEmail from "@/Component/CardEmail";
 
 const SystemSecurity = () => {
   return (
@@ -146,28 +147,13 @@ const SystemSecurity = () => {
       </div>
       <div className="Main-System-Security-Main3">
         <div className="Sub-Main3">
-          <p>Secure Your Property with eaneer’s Security Systems</p>
+          <p>eaneer Energy Distribution Services</p>
           <p>
-            Take control of your security with eaneer’s reliable and innovative
-            solutions. Whether you need advanced surveillance, access control,
-            or a complete security overhaul, we’re here to help.
+            eaneer Industrials provides advanced energy distribution solutions
+            tailored to the unique demands of industrial environments, ensuring
+            reliability and efficiency in power delivery.
           </p>
-          <div className="Sub-Div">
-            <p>
-              Get in Touch for a free consultation or to schedule your next
-              service.
-            </p>
-            <button>Contact Us</button>
-          </div>
         </div>
-      </div>
-      <div className="Main-System-Security-Main4">
-        <p>Our Security Systems Services</p>
-        <p>
-          eaneer delivers high-performance security systems designed to keep
-          your property safe, providing comprehensive solutions tailored to meet
-          your security needs.
-        </p>
       </div>
       <div className="Main-System-Security-Main5">
         <div className="Main5-first">
@@ -199,7 +185,7 @@ const SystemSecurity = () => {
         </div>
         <Image
           className="Main5-Image"
-          src={mask_group_33}
+          src={mask_group_42}
           height={285}
           alt="image-2"
         ></Image>
@@ -207,7 +193,7 @@ const SystemSecurity = () => {
       <div className="Main-System-Security-Main5">
         <Image
           className="Main5-Image"
-          src={mask_group_34}
+          src={mask_group_43}
           height={285}
           alt="image-2"
         ></Image>
@@ -269,7 +255,7 @@ const SystemSecurity = () => {
         </div>
         <Image
           className="Main5-Image"
-          src={mask_group_35}
+          src={mask_group_44}
           height={285}
           alt="image-2"
         ></Image>
@@ -277,7 +263,7 @@ const SystemSecurity = () => {
       <div className="Main-System-Security-Main5">
         <Image
           className="Main5-Image"
-          src={mask_group_36}
+          src={mask_group_45}
           height={285}
           alt="image-2"
         ></Image>
@@ -350,23 +336,47 @@ const SystemSecurity = () => {
               technologies.
             </p>
           </div>
-          
         </div>
-        <Image className="Main8-Image" src={mask_group_37} height={815} alt="image-3"></Image>
+        <Image
+          className="Main8-Image"
+          src={mask_group_46}
+          height={815}
+          alt="image-3"
+        ></Image>
         <div className="Main8-second"></div>
       </div>
-      <div className="Fourth-Main">
-        <div className="Fourth-Main1">
-          <p>Contact Us Today</p>
-          <p className="content">
-            Have questions about our services or ready to start your project?{" "}
+      <div className="Main-System-Security-Main11">
+        <Image
+          src={component23}
+          height={37.2}
+          width={33.83}
+          alt="image-1"
+        ></Image>
+      </div>
+      <div className="Main-System-Security-Main9">
+        <div className="Sub-Main9">
+          <p>Power Your Business with eaneer’s Energy Distribution Solutions</p>
+          <p>
+            Take control of your energy with Eaneer’s cutting-edge distribution
+            systems, designed to meet the demands of modern industrial
+            environments. Let us help you reduce costs, improve efficiency, and
+            ensure reliable power delivery
+          </p>
+          <p>
+            Contact Us today for a consultation on how our energy distribution
+            services can transform your industrial energy systems.
           </p>
         </div>
-        <div className="Fourth-Main2">
-          <input type="text" placeholder="Type Your Email" />
-          <button>Get Started</button>
-        </div>
       </div>
+      <div className="Main-System-Security-Main10">
+        <Image
+          src={component23}
+          height={37.2}
+          width={33.83}
+          alt="image-1"
+        ></Image>
+      </div>
+      <CardEmail />
       <Footer />
     </div>
   );
