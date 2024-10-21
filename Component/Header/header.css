@@ -12,7 +12,7 @@
 }
 .container-style2 {
   display: flex;
-  width: 66.67vw;
+  width: 66.67%;
   justify-content: center;
   align-items: center;
 }
@@ -21,9 +21,10 @@ nav > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 50px;
+  /* margin: 0px 50px; */
 }
 .navbar {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -44,6 +45,10 @@ nav > div {
     align-items: center;
     width: 100%;
 } */
+ .brand-image{
+  display: flex;
+  justify-content: start;
+ }
 .navbar-nav li {
   margin: 29px;
 }
@@ -488,9 +493,8 @@ nav > div {
 }
 .Login {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   gap: 20px;
-  margin-left: 200px;
 }
 .Login a {
   font-family: Raleway;
@@ -544,7 +548,7 @@ nav {
     }   
 } */
 
-@media (min-width: 1920px) {
+/* @media (min-width: 1920px) {
   .container-style {
     display: flex;
     justify-content: center;
@@ -567,4 +571,4 @@ nav {
     align-items: center;
     width: 71.5vw;
   }
-}
+} */
